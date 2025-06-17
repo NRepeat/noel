@@ -1,0 +1,437 @@
+{
+  "sections": {
+    "e82d2d57-c29c-4ed4-97fc-b313f6c5e8e3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14952483848252__e82d2d57-c29c-4ed4-97fc-b313f6c5e8e3-1668065227ce01eb2f-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Brands"
+          }
+        },
+        "template--14952483848252__e82d2d57-c29c-4ed4-97fc-b313f6c5e8e3-1668065227ce01eb2f-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>We understand how important it is to make the right decisions when it comes to selecting furniture for your home. That is why we offer so many brands and hundreds of styles and fabrics that allow you to combine elements of color, style, comfort, and price to get the furniture that is perfect for you and your family.<\/p><p>Noël Furniture is proud to offer the products of these top brands, and are committed to providing your with a risk free, hassle-free shopping experience to ensure that your find exactly what you're looking for.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14952483848252__e82d2d57-c29c-4ed4-97fc-b313f6c5e8e3-1668065227ce01eb2f-0",
+        "template--14952483848252__e82d2d57-c29c-4ed4-97fc-b313f6c5e8e3-1668065227ce01eb2f-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "main": {
+      "type": "list-collections-template",
+      "blocks": {
+        "f16f5163-2601-4c05-a85d-3312308d47a2": {
+          "type": "collection",
+          "settings": {
+            "collection": "american-leather"
+          }
+        },
+        "d8f54120-b3b8-4985-9ceb-55e9e5abaf2b": {
+          "type": "collection",
+          "settings": {
+            "collection": "ann-gish-luxury-linens"
+          }
+        },
+        "collection_CncrdH": {
+          "type": "collection",
+          "settings": {
+            "collection": "arteriors"
+          }
+        },
+        "collection_4Dk9g7": {
+          "type": "collection",
+          "settings": {
+            "collection": "artmax"
+          }
+        },
+        "75137938-60b1-436f-a4ff-74d4c940e768": {
+          "type": "collection",
+          "settings": {
+            "collection": "belle-meade-signature"
+          }
+        },
+        "1c158285-16a5-431d-9130-feb73f85042d": {
+          "type": "collection",
+          "settings": {
+            "collection": "bernhardt"
+          }
+        },
+        "b6b6829d-27b7-4987-8fc2-ad2efac942d0": {
+          "type": "collection",
+          "settings": {
+            "collection": "bernhardt-exteriors"
+          }
+        },
+        "cc32ffc4-65db-4480-bbae-8e5291e1aac0": {
+          "type": "collection",
+          "settings": {
+            "collection": "bernhardt-interiors"
+          }
+        },
+        "collection_NfeLTG": {
+          "type": "collection",
+          "settings": {
+            "collection": "bethel-international"
+          }
+        },
+        "f9d33798-3287-40a3-bae3-9e9302695e7c": {
+          "type": "collection",
+          "settings": {
+            "collection": "bracci"
+          }
+        },
+        "b298e13d-34e9-4997-a945-0cb966405cda": {
+          "type": "collection",
+          "settings": {
+            "collection": "caracole"
+          }
+        },
+        "6248568d-09de-4293-9d4e-aa9cb46bf18d": {
+          "type": "collection",
+          "settings": {
+            "collection": "century-furniture"
+          }
+        },
+        "84eef768-0e21-4cc4-8ba3-518ac7457c86": {
+          "type": "collection",
+          "settings": {
+            "collection": "chaddock"
+          }
+        },
+        "collection_UNdpHk": {
+          "type": "collection",
+          "settings": {
+            "collection": "chelsea-house-1"
+          }
+        },
+        "fb1ed56d-f778-4549-b968-82619d0c7c0f": {
+          "type": "collection",
+          "settings": {
+            "collection": "christopher-guy"
+          }
+        },
+        "187837c4-d0b4-43bb-ade9-d58854140f27": {
+          "type": "collection",
+          "settings": {
+            "collection": "cth-sherrill-occasional"
+          }
+        },
+        "10483a20-202f-4b3f-93af-fd8d2881ab9e": {
+          "type": "collection",
+          "settings": {
+            "collection": "curry-company"
+          }
+        },
+        "collection_PyKtiB": {
+          "type": "collection",
+          "settings": {
+            "collection": "cyan-design"
+          }
+        },
+        "2cd860ad-abf9-4ebf-8180-596225f93b37": {
+          "type": "collection",
+          "settings": {
+            "collection": "designmaster"
+          }
+        },
+        "f87f8250-95f0-4054-b14b-e833958f955e": {
+          "type": "collection",
+          "settings": {
+            "collection": "fine-art"
+          }
+        },
+        "4246133f-863c-4eff-a3d1-dbd964a9c5c6": {
+          "type": "collection",
+          "settings": {
+            "collection": "four-hands"
+          }
+        },
+        "db25fdcd-fc47-455e-a55c-82f988fc8e73": {
+          "type": "collection",
+          "settings": {
+            "collection": "global-views"
+          }
+        },
+        "8cb9d84d-0d81-4051-a19f-54c0e7c0ba53": {
+          "type": "collection",
+          "settings": {
+            "collection": "hancock-moore"
+          }
+        },
+        "572798e8-40e6-4ecc-ad15-499c5913c7da": {
+          "type": "collection",
+          "settings": {
+            "collection": "hickory-white"
+          }
+        },
+        "17fe5ef5-2cd1-4bed-8558-d9cbbf80e33e": {
+          "type": "collection",
+          "settings": {
+            "collection": "hooker-furniture"
+          }
+        },
+        "3fe0df4f-c855-416d-b9e2-af3764d66a88": {
+          "type": "collection",
+          "settings": {
+            "collection": "howard-elliot"
+          }
+        },
+        "a7c99f08-4eef-420d-8242-24285c527e6a": {
+          "type": "collection",
+          "settings": {
+            "collection": "interlude-homes"
+          }
+        },
+        "4172d8c4-0fd7-4992-be3a-eeca6f5b7c89": {
+          "type": "collection",
+          "settings": {
+            "collection": "jamie-young"
+          }
+        },
+        "a3dbd621-acd4-4a9d-97d0-4ebed6336a84": {
+          "type": "collection",
+          "settings": {
+            "collection": "jessica-charles"
+          }
+        },
+        "07ace6d0-6512-4df6-b408-2f586d8049d9": {
+          "type": "collection",
+          "settings": {
+            "collection": "john-richard"
+          }
+        },
+        "dc0cd3fc-3b6f-4d2e-b5da-31457caef189": {
+          "type": "collection",
+          "settings": {
+            "collection": "kelvin-giormani"
+          }
+        },
+        "d51110c7-d6c6-4f61-8d31-aff58ab4147f": {
+          "type": "collection",
+          "settings": {
+            "collection": "lane-venture"
+          }
+        },
+        "5c6466b5-a796-4b8d-94bb-0b187b4b798a": {
+          "type": "collection",
+          "settings": {
+            "collection": "lillian-august"
+          }
+        },
+        "228ccf29-9ae7-4beb-b3a7-ce3666a6a86d": {
+          "type": "collection",
+          "settings": {
+            "collection": "maitland-smith"
+          }
+        },
+        "collection_AMnP9B": {
+          "type": "collection",
+          "settings": {
+            "collection": "marge-carson-1"
+          }
+        },
+        "7d706916-84b6-48f3-a7cc-d6af0ae0ae74": {
+          "type": "collection",
+          "settings": {
+            "collection": "massoud"
+          }
+        },
+        "dec37913-8ecf-4c2f-9465-ec11ba4c8823": {
+          "type": "collection",
+          "settings": {
+            "collection": "modern-history"
+          }
+        },
+        "2cef9958-8232-43f8-95e1-8e0c45dfe488": {
+          "type": "collection",
+          "settings": {
+            "collection": "paul-robert"
+          }
+        },
+        "b3827f95-31f2-42d6-9e53-9e7356334c0c": {
+          "type": "collection",
+          "settings": {
+            "collection": "phillips-collection"
+          }
+        },
+        "24036a1f-5b66-4627-9d55-de39e267b52f": {
+          "type": "collection",
+          "settings": {
+            "collection": "precedent"
+          }
+        },
+        "34871128-6823-4997-9adc-cde3ac89372d": {
+          "type": "collection",
+          "settings": {
+            "collection": "regina-andrew-detroit"
+          }
+        },
+        "ea15abbd-4f7e-45be-9ea5-ec0dce388df0": {
+          "type": "collection",
+          "settings": {
+            "collection": "rene-cazares"
+          }
+        },
+        "collection_pjHd3X": {
+          "type": "collection",
+          "settings": {
+            "collection": "revelation"
+          }
+        },
+        "42258a5c-6392-4c44-b42b-8074b023139b": {
+          "type": "collection",
+          "settings": {
+            "collection": "sarreid-ltd"
+          }
+        },
+        "13d93138-ef51-44cb-a44c-79b30b97f5fb": {
+          "type": "collection",
+          "settings": {
+            "collection": "stearns-foster"
+          }
+        },
+        "ca3b43e6-36a0-41aa-b3c8-5af8ea769cfa": {
+          "type": "collection",
+          "settings": {
+            "collection": "stone-international"
+          }
+        },
+        "16fa4a71-9407-4268-ae69-23eba58d55e0": {
+          "type": "collection",
+          "settings": {
+            "collection": "swaim"
+          }
+        },
+        "a0cae50e-1ba3-4c5a-95cf-efbf8e2f9803": {
+          "type": "collection",
+          "settings": {
+            "collection": "taylor-king"
+          }
+        }
+      },
+      "block_order": [
+        "f16f5163-2601-4c05-a85d-3312308d47a2",
+        "d8f54120-b3b8-4985-9ceb-55e9e5abaf2b",
+        "collection_CncrdH",
+        "collection_4Dk9g7",
+        "75137938-60b1-436f-a4ff-74d4c940e768",
+        "1c158285-16a5-431d-9130-feb73f85042d",
+        "b6b6829d-27b7-4987-8fc2-ad2efac942d0",
+        "cc32ffc4-65db-4480-bbae-8e5291e1aac0",
+        "collection_NfeLTG",
+        "f9d33798-3287-40a3-bae3-9e9302695e7c",
+        "b298e13d-34e9-4997-a945-0cb966405cda",
+        "6248568d-09de-4293-9d4e-aa9cb46bf18d",
+        "84eef768-0e21-4cc4-8ba3-518ac7457c86",
+        "collection_UNdpHk",
+        "fb1ed56d-f778-4549-b968-82619d0c7c0f",
+        "187837c4-d0b4-43bb-ade9-d58854140f27",
+        "10483a20-202f-4b3f-93af-fd8d2881ab9e",
+        "collection_PyKtiB",
+        "2cd860ad-abf9-4ebf-8180-596225f93b37",
+        "f87f8250-95f0-4054-b14b-e833958f955e",
+        "4246133f-863c-4eff-a3d1-dbd964a9c5c6",
+        "db25fdcd-fc47-455e-a55c-82f988fc8e73",
+        "8cb9d84d-0d81-4051-a19f-54c0e7c0ba53",
+        "572798e8-40e6-4ecc-ad15-499c5913c7da",
+        "17fe5ef5-2cd1-4bed-8558-d9cbbf80e33e",
+        "3fe0df4f-c855-416d-b9e2-af3764d66a88",
+        "a7c99f08-4eef-420d-8242-24285c527e6a",
+        "4172d8c4-0fd7-4992-be3a-eeca6f5b7c89",
+        "a3dbd621-acd4-4a9d-97d0-4ebed6336a84",
+        "07ace6d0-6512-4df6-b408-2f586d8049d9",
+        "dc0cd3fc-3b6f-4d2e-b5da-31457caef189",
+        "d51110c7-d6c6-4f61-8d31-aff58ab4147f",
+        "5c6466b5-a796-4b8d-94bb-0b187b4b798a",
+        "228ccf29-9ae7-4beb-b3a7-ce3666a6a86d",
+        "collection_AMnP9B",
+        "7d706916-84b6-48f3-a7cc-d6af0ae0ae74",
+        "dec37913-8ecf-4c2f-9465-ec11ba4c8823",
+        "2cef9958-8232-43f8-95e1-8e0c45dfe488",
+        "b3827f95-31f2-42d6-9e53-9e7356334c0c",
+        "24036a1f-5b66-4627-9d55-de39e267b52f",
+        "34871128-6823-4997-9adc-cde3ac89372d",
+        "ea15abbd-4f7e-45be-9ea5-ec0dce388df0",
+        "collection_pjHd3X",
+        "42258a5c-6392-4c44-b42b-8074b023139b",
+        "13d93138-ef51-44cb-a44c-79b30b97f5fb",
+        "ca3b43e6-36a0-41aa-b3c8-5af8ea769cfa",
+        "16fa4a71-9407-4268-ae69-23eba58d55e0",
+        "a0cae50e-1ba3-4c5a-95cf-efbf8e2f9803"
+      ],
+      "settings": {
+        "title_enable": false,
+        "display_type": "selected",
+        "sort": "alphabetical",
+        "grid": "4",
+        "padding_top": 75,
+        "padding_bottom": 0
+      }
+    },
+    "list_collections_template_E7wmbL": {
+      "type": "list-collections-template",
+      "blocks": {
+        "collection_CYTyUN": {
+          "type": "collection",
+          "settings": {
+            "collection": "theodore-alexander"
+          }
+        },
+        "collection_mQ8QPD": {
+          "type": "collection",
+          "settings": {
+            "collection": "uttermost"
+          }
+        },
+        "collection_GHqw9F": {
+          "type": "collection",
+          "settings": {
+            "collection": "villa-house"
+          }
+        },
+        "collection_k6FxwQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "viz-glass"
+          }
+        },
+        "collection_w3LLTa": {
+          "type": "collection",
+          "settings": {
+            "collection": "wildwood"
+          }
+        }
+      },
+      "block_order": [
+        "collection_CYTyUN",
+        "collection_mQ8QPD",
+        "collection_GHqw9F",
+        "collection_k6FxwQ",
+        "collection_w3LLTa"
+      ],
+      "settings": {
+        "title_enable": false,
+        "display_type": "selected",
+        "sort": "alphabetical",
+        "grid": "4",
+        "padding_top": 0,
+        "padding_bottom": 75
+      }
+    }
+  },
+  "order": [
+    "e82d2d57-c29c-4ed4-97fc-b313f6c5e8e3",
+    "main",
+    "list_collections_template_E7wmbL"
+  ]
+}

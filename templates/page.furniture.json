@@ -1,0 +1,185 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "f3200abe-a6e7-4b3a-a3b3-4ed715263d5e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14952484012092__f3200abe-a6e7-4b3a-a3b3-4ed715263d5e-1673881246cb4699a9-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/noelhome_brands_hero.webp",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--14952484012092__f3200abe-a6e7-4b3a-a3b3-4ed715263d5e-1673881246cb4699a9-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
+    },
+    "de523eb5-74b2-4c2c-98b9-2520021d4947": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--15080840691772__de523eb5-74b2-4c2c-98b9-2520021d4947-16738855308bcbcd2f-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "Bedroom",
+            "focal_point": "center center"
+          }
+        },
+        "template--15080840691772__de523eb5-74b2-4c2c-98b9-2520021d4947-16738855308bcbcd2f-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "Dining Room",
+            "focal_point": "center center"
+          }
+        },
+        "template--15080840691772__de523eb5-74b2-4c2c-98b9-2520021d4947-16738855308bcbcd2f-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "Living Room",
+            "focal_point": "center center"
+          }
+        },
+        "template--15080840691772__de523eb5-74b2-4c2c-98b9-2520021d4947-16738855308bcbcd2f-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "Office & Entertainment",
+            "focal_point": "center center"
+          }
+        },
+        "897357df-03c0-479e-bcde-f03412786667": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": "Outdoor",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15080840691772__de523eb5-74b2-4c2c-98b9-2520021d4947-16738855308bcbcd2f-0",
+        "template--15080840691772__de523eb5-74b2-4c2c-98b9-2520021d4947-16738855308bcbcd2f-1",
+        "template--15080840691772__de523eb5-74b2-4c2c-98b9-2520021d4947-16738855308bcbcd2f-2",
+        "template--15080840691772__de523eb5-74b2-4c2c-98b9-2520021d4947-16738855308bcbcd2f-3",
+        "897357df-03c0-479e-bcde-f03412786667"
+      ],
+      "settings": {
+        "title": "Furniture",
+        "divider": false,
+        "per_row": 3,
+        "enable_gutter": true
+      }
+    },
+    "ab0c8586-8f60-4122-b8f2-5dbd66faef71": {
+      "type": "text-columns",
+      "blocks": {
+        "147ebf2d-d0e9-4ac4-b1d5-88b4fe5120e8": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "template--15080840691772__ab0c8586-8f60-4122-b8f2-5dbd66faef71-1673886058a12f5242-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Bedroom",
+            "text": "",
+            "button_label": "View Bedroom Collection",
+            "button_link": ""
+          }
+        },
+        "template--15080840691772__ab0c8586-8f60-4122-b8f2-5dbd66faef71-1673886058a12f5242-1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Living Room",
+            "text": "",
+            "button_label": "View Living Room Collection",
+            "button_link": ""
+          }
+        },
+        "template--15080840691772__ab0c8586-8f60-4122-b8f2-5dbd66faef71-1673886058a12f5242-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Dining Room",
+            "text": "",
+            "button_label": "View Dining Room Collection",
+            "button_link": ""
+          }
+        },
+        "80cc60c1-2622-48ff-a385-2ecad9db07d1": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "52f71d65-46b7-4768-bc33-fb62ccf06b9c": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "title": "Example title",
+            "text": "<p>Use this section to explain a set of product features, to link to a series of pages, or to answer common questions about your products. Add images for emphasis.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "147ebf2d-d0e9-4ac4-b1d5-88b4fe5120e8",
+        "template--15080840691772__ab0c8586-8f60-4122-b8f2-5dbd66faef71-1673886058a12f5242-0",
+        "template--15080840691772__ab0c8586-8f60-4122-b8f2-5dbd66faef71-1673886058a12f5242-1",
+        "template--15080840691772__ab0c8586-8f60-4122-b8f2-5dbd66faef71-1673886058a12f5242-2",
+        "80cc60c1-2622-48ff-a385-2ecad9db07d1",
+        "52f71d65-46b7-4768-bc33-fb62ccf06b9c"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f3200abe-a6e7-4b3a-a3b3-4ed715263d5e",
+    "de523eb5-74b2-4c2c-98b9-2520021d4947",
+    "ab0c8586-8f60-4122-b8f2-5dbd66faef71"
+  ]
+}

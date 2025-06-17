@@ -1,0 +1,65 @@
+{
+  "type": "header",
+  "name": "t:sections.header-group.name",
+  "sections": {
+    "header": {
+      "type": "header",
+      "blocks": {
+        "1524770014057": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/NOEL_SHOPIFY_LOGO_TEST8_62a66f07-4a00-4214-8bbd-97d44204523d.jpg",
+            "desktop_logo_width": 200,
+            "mobile_logo_width": 110
+          }
+        }
+      },
+      "block_order": [
+        "1524770014057"
+      ],
+      "settings": {
+        "main_menu_link_list": "main-menu",
+        "mega_menu_images": true,
+        "main_menu_alignment": "center-split",
+        "header_style": "sticky",
+        "sticky_index": false,
+        "sticky_collection": false,
+        "toolbar_menu": "top-level-menu",
+        "toolbar_social": false,
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "show_currency_flags": true
+      }
+    },
+    "announcement": {
+      "type": "announcement",
+      "blocks": {
+        "announcement-0": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free shipping",
+            "link_text": "On all orders over $100"
+          }
+        },
+        "announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "Hassle-free returns",
+            "link_text": "30-day postage paid returns"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-0",
+        "announcement-1"
+      ],
+      "settings": {
+        "announcement_compact": true
+      }
+    }
+  },
+  "order": [
+    "header",
+    "announcement"
+  ]
+}

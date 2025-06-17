@@ -1,0 +1,63 @@
+{
+  "sections": {
+    "map": {
+      "type": "google-map-embed",
+      "settings": {
+        "map_url": "https:\/\/maps.google.com\/maps?z=15&t=m&q=NOEL HOME 2727 SW Freeway Houston, TX 77098&ie=UTF8&output=embed"
+      }
+    },
+    "contact-form": {
+      "type": "custom-contact-form",
+      "blocks": {
+        "content_item_HWTpHw": {
+          "type": "content-item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/location-pin.svg",
+            "heading": "Address",
+            "text": "<p>2727 SW Freeway<br\/>Houston, TX 77098<\/p>"
+          }
+        },
+        "content_item_gnRLVN": {
+          "type": "content-item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/clock-circle.svg",
+            "heading": "Opening hours",
+            "text": "<p>Monday - Saturday:<br\/>10:00 a.m. - 6:00 p.m.<br\/>Sunday: 1:00 p.m. - 5:00 p.m.<\/p>"
+          }
+        },
+        "content_item_4FrThC": {
+          "type": "content-item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/phone.svg",
+            "heading": "Phone",
+            "text": "<p>713-874-5200<\/p>"
+          }
+        },
+        "content_item_6EBBBL": {
+          "type": "content-item",
+          "settings": {
+            "icon": "shopify:\/\/shop_images\/email.svg",
+            "heading": "Email",
+            "text": "<p>info@noelhome.com<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "content_item_HWTpHw",
+        "content_item_gnRLVN",
+        "content_item_4FrThC",
+        "content_item_6EBBBL"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/noelhome_about_us_1-52_35ce3529-06aa-489a-8f24-48144cd80931.webp",
+        "title": "Contact Us",
+        "paragraph": "Feel free to drop us a line via this contact form or visit our headquarter. The NDA Sport team is always looking for feedback and comments from you to improve our service quality. Our working hours is from 9:00AM to 5:00PM from Monday to Friday (except holidays and weekends).",
+        "form_title": "Get In Touch"
+      }
+    }
+  },
+  "order": [
+    "map",
+    "contact-form"
+  ]
+}

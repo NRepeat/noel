@@ -1,0 +1,103 @@
+{
+  "sections": {
+    "52b283a5-d7cc-477f-bf78-e27f48d34184": {
+      "type": "background-image-text",
+      "settings": {
+        "subtitle": "",
+        "title": "Interested in a Career in the High-End Furniture Industry?",
+        "text": "<p>You’ve come to the right place! We are currently interviewing candidates for the following positions: <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/Aldo1_PM_Sectional_RS_Media_Kit.jpg",
+        "layout": "left",
+        "height": 450,
+        "framed": true,
+        "parallax": true,
+        "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "95d041fa-c372-480c-b7bf-dc083802852e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14952484012092__95d041fa-c372-480c-b7bf-dc083802852e-167388143848264c4b-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h4>Social Media Specialist<\/h4><p>Call for job description.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14952484012092__95d041fa-c372-480c-b7bf-dc083802852e-167388143848264c4b-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "ed88433f-961b-4e2a-8705-48fc647b0198": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15166140219452__ed88433f-961b-4e2a-8705-48fc647b0198-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h4><strong>Designers\/Design Assistants<\/strong><\/h4><p>We are currently seeking goal-oriented designers\/sales professionals with prior sales experience.<\/p><p>The ideal candidate for this position loves to help clients with their furniture, art, rug and accessory selections. He or she is fashion forward with a type A personality, exudes enthusiasm and is self-motivated. A professional appearance is required as daily interface with customers is to be expected. Top-quality customer service is part of the culture at Noël Home, so we value exceptional presentation, communication and customer service skills.<\/p><p>The applicant must be able to work 40 hours per week (5 days per week, including some weekends), and scheduling flexibility is a must.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15166140219452__ed88433f-961b-4e2a-8705-48fc647b0198-text-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "23257056-a9d0-4b21-91fc-a7f7e00d2c4c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15166140219452__23257056-a9d0-4b21-91fc-a7f7e00d2c4c-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": true,
+            "text": "<h4><strong>Ready to Apply?<\/strong><\/h4><p>If a career in the high-end furniture industry appeals to you and any of these positions sound like the perfect fit, we’d love to see your resume! Please contact us at <a href=\"tel:17138745200\" title=\"tel:17138745200\">713-874-5200<\/a> or email <a href=\"mailto:info@noelhome.com\">info@noelhome.com<\/a> for more information.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15166140219452__23257056-a9d0-4b21-91fc-a7f7e00d2c4c-text-1"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "ebaf0b98-697d-4d56-9e30-78ebc50b0c99": {
+      "type": "contact-form",
+      "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": true,
+        "narrow_column": true
+      }
+    }
+  },
+  "order": [
+    "52b283a5-d7cc-477f-bf78-e27f48d34184",
+    "main",
+    "95d041fa-c372-480c-b7bf-dc083802852e",
+    "ed88433f-961b-4e2a-8705-48fc647b0198",
+    "23257056-a9d0-4b21-91fc-a7f7e00d2c4c",
+    "ebaf0b98-697d-4d56-9e30-78ebc50b0c99"
+  ]
+}

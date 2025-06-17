@@ -1,0 +1,22 @@
+/*********************** Custom CSS for Boost AI Search & Discovery  ************************/
+
+.boost-custom-price {
+  /* background: #000;
+  color: #fff;
+  font-size: 12px;
+  padding: 12px;
+  display: table;
+  margin: auto;
+  margin-top: 10px; */
+  text-transform: uppercase;
+  padding-inline: 0;
+}
+
+.boost-sd__product-image-img {
+  object-fit: contain;
+  background: transparent;
+}
+
+.boost-sd-layout{
+  max-width: 1760px
+}

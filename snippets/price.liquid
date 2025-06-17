@@ -1,0 +1,5 @@
+{% if product.price == 0 %}
+  <p>Call for Pricing</p>
+{% else %}
+  <p>{{ product.price | money }}</p>
+{% endif %}

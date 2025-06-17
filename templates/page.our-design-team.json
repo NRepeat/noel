@@ -1,0 +1,175 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "e5285738-865c-41f9-96a0-9726c3fcab37": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14952484012092__e5285738-865c-41f9-96a0-9726c3fcab37-167388143848264c4b-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Our Design Team"
+          }
+        }
+      },
+      "block_order": [
+        "template--14952484012092__e5285738-865c-41f9-96a0-9726c3fcab37-167388143848264c4b-0"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "dd08e364-ec8e-4d2d-960e-a9aa110e9e70": {
+      "type": "text-columns",
+      "blocks": {
+        "template--15082220486716__dd08e364-ec8e-4d2d-960e-a9aa110e9e70-1674067794d88f780f-0": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Carmen.png",
+            "image_color": "shopify:\/\/shop_images\/carmen-color.jpg",
+            "image_mask": "portrait",
+            "image_position": "top",
+            "title": "Carmen Barone",
+            "title_position": "on",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/metaobjects\/designer\/carmen-barone"
+          }
+        },
+        "template--15082220486716__dd08e364-ec8e-4d2d-960e-a9aa110e9e70-1674067794d88f780f-2": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Lawrence.png",
+            "image_color": "shopify:\/\/shop_images\/lawrence-color.webp",
+            "image_mask": "portrait",
+            "image_position": "top",
+            "title": "Lawrence Hawkins",
+            "title_position": "on",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/metaobjects\/designer\/lawrence-hawkins"
+          }
+        },
+        "0d7b1731-ebf3-492c-b21c-abcfff4c1589": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Alma.png",
+            "image_color": "shopify:\/\/shop_images\/alma-color.webp",
+            "image_mask": "portrait",
+            "image_position": "center",
+            "title": "Alma Campbell",
+            "title_position": "on",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/metaobjects\/designer\/alma-campbell"
+          }
+        },
+        "4c367bf0-dbb0-48d4-bd97-4aea0811eceb": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Fatima.png",
+            "image_color": "shopify:\/\/shop_images\/fatima-color.jpg",
+            "image_mask": "portrait",
+            "image_position": "top",
+            "title": "Fatima Munir",
+            "title_position": "on",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/metaobjects\/designer\/fatima-munir"
+          }
+        },
+        "3824faac-c95c-4993-92be-35ce62e92a17": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Diann.png",
+            "image_color": "shopify:\/\/shop_images\/diann-color.jpg",
+            "image_mask": "portrait",
+            "image_position": "top",
+            "title": "Diann Maxey",
+            "title_position": "on",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/metaobjects\/designer\/diann-maxey"
+          }
+        },
+        "0a622642-54d8-4d48-8675-2af2856e8752": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/RC.png",
+            "image_color": "shopify:\/\/shop_images\/rc-color.jpg",
+            "image_mask": "portrait",
+            "image_position": "center",
+            "title": "RC Noel",
+            "title_position": "on",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/metaobjects\/designer\/rc-noel"
+          }
+        },
+        "de107b79-1899-48d1-b918-61c991f9a330": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Lee.png",
+            "image_color": "shopify:\/\/shop_images\/lee-color.jpg",
+            "image_mask": "portrait",
+            "image_position": "top",
+            "title": "Lee Danforth",
+            "title_position": "on",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/metaobjects\/designer\/lee-danforth"
+          }
+        },
+        "d15f5bff-aeb9-4a5c-848e-11bfd5e2ce01": {
+          "type": "text_block",
+          "settings": {
+            "enable_image": true,
+            "image": "shopify:\/\/shop_images\/Westin.png",
+            "image_color": "shopify:\/\/shop_images\/westin-color.webp",
+            "image_mask": "portrait",
+            "image_position": "top",
+            "title": "Westin Noel",
+            "title_position": "on",
+            "text": "",
+            "button_label": "",
+            "button_link": "shopify:\/\/metaobjects\/designer\/westin-noel"
+          }
+        }
+      },
+      "block_order": [
+        "template--15082220486716__dd08e364-ec8e-4d2d-960e-a9aa110e9e70-1674067794d88f780f-0",
+        "template--15082220486716__dd08e364-ec8e-4d2d-960e-a9aa110e9e70-1674067794d88f780f-2",
+        "0d7b1731-ebf3-492c-b21c-abcfff4c1589",
+        "4c367bf0-dbb0-48d4-bd97-4aea0811eceb",
+        "3824faac-c95c-4993-92be-35ce62e92a17",
+        "0a622642-54d8-4d48-8675-2af2856e8752",
+        "de107b79-1899-48d1-b918-61c991f9a330",
+        "d15f5bff-aeb9-4a5c-848e-11bfd5e2ce01"
+      ],
+      "settings": {
+        "title": "",
+        "align_text": "center",
+        "divider": false,
+        "block_size": "quarter",
+        "showimagehover": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "e5285738-865c-41f9-96a0-9726c3fcab37",
+    "dd08e364-ec8e-4d2d-960e-a9aa110e9e70"
+  ]
+}

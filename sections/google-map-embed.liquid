@@ -1,0 +1,29 @@
+<div class="google-map-container" style="position:relative;height:450px;overflow:hidden;">
+  <iframe
+    style="height:100%;width:100%;border:none;position:absolute;left:0"
+    loading="lazy"
+    scrolling="no"
+    title="google_map"
+    src="{{ section.settings.map_url }}"
+  >
+  </iframe>
+</div>
+
+{% schema %}
+{
+  "name": "Google Map Embed",
+  "settings": [
+    {
+      "type": "text",
+      "id": "map_url",
+      "label": "Google Maps Embed URL",
+      "default": "https://maps.google.com/maps?z=15&t=m&q=NOEL HOME 2727 SW Freeway Houston, TX 77098&ie=UTF8&output=embed"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Google Map Embed"
+    }
+  ]
+}
+{% endschema %}

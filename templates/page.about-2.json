@@ -1,0 +1,112 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {}
+    },
+    "f3200abe-a6e7-4b3a-a3b3-4ed715263d5e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--14952484012092__f3200abe-a6e7-4b3a-a3b3-4ed715263d5e-1673881246cb4699a9-0": {
+          "type": "image",
+          "settings": {
+            "top_subheading": "",
+            "title": "",
+            "title_size": 80,
+            "subheading": "",
+            "link": "",
+            "link_text": "",
+            "link_2": "",
+            "link_text_2": "",
+            "color_accent": "rgba(0,0,0,0)",
+            "text_align": "vertical-center horizontal-center",
+            "image": "shopify:\/\/shop_images\/noel-careers-header.png",
+            "parallax_direction": "top",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--14952484012092__f3200abe-a6e7-4b3a-a3b3-4ed715263d5e-1673881246cb4699a9-0"
+      ],
+      "settings": {
+        "section_height": "natural",
+        "mobile_height": "auto",
+        "parallax": false,
+        "style": "bars",
+        "autoplay": false,
+        "autoplay_speed": 5
+      }
+    },
+    "e5285738-865c-41f9-96a0-9726c3fcab37": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14952484012092__e5285738-865c-41f9-96a0-9726c3fcab37-167388143848264c4b-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Interested in a Career in the High-End Furniture Industry?"
+          }
+        },
+        "template--14952484012092__e5285738-865c-41f9-96a0-9726c3fcab37-167388143848264c4b-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>You’ve come to the right place! We are currently interviewing candidates for the following positions:<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14952484012092__e5285738-865c-41f9-96a0-9726c3fcab37-167388143848264c4b-0",
+        "template--14952484012092__e5285738-865c-41f9-96a0-9726c3fcab37-167388143848264c4b-1"
+      ],
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "95d041fa-c372-480c-b7bf-dc083802852e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--14952484012092__95d041fa-c372-480c-b7bf-dc083802852e-167388143848264c4b-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><strong>Social Media Specialist<\/strong><\/p><p>Call for job description.<\/p>"
+          }
+        },
+        "5bad1d5a-1629-4251-b91e-f734e0f791bf": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><strong>Designers\/Design Assistants<\/strong><\/p><p>We are currently seeking goal-oriented designers\/sales professionals with prior sales experience.<\/p><p>The ideal candidate for this position loves to help clients with their furniture, art, rug and accessory selections. He or she is fashion forward with a type A personality, exudes enthusiasm and is self-motivated. A professional appearance is required as daily interface with customers is to be expected. Top-quality customer service is part of the culture at Noël Home, so we value exceptional presentation, communication and customer service skills.<\/p><p>The applicant must be able to work 40 hours per week (5 days per week, including some weekends), and scheduling flexibility is a must.<\/p>"
+          }
+        },
+        "91651fc3-0eed-4f55-8c03-2a4b0f13763d": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p><strong>Ready to Apply?<\/strong><\/p><p>If a career in the high-end furniture industry appeals to you and any of these positions sound like the perfect fit, we’d love to see your resume! Please contact us at <a href=\"tel:17138745200\" title=\"tel:17138745200\">713-874-5200<\/a> or email <a href=\"mailto:info@noelhome.com\">info@noelhome.com<\/a> for more information.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--14952484012092__95d041fa-c372-480c-b7bf-dc083802852e-167388143848264c4b-1",
+        "5bad1d5a-1629-4251-b91e-f734e0f791bf",
+        "91651fc3-0eed-4f55-8c03-2a4b0f13763d"
+      ],
+      "settings": {
+        "align_text": "left",
+        "narrow_column": true,
+        "divider": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f3200abe-a6e7-4b3a-a3b3-4ed715263d5e",
+    "e5285738-865c-41f9-96a0-9726c3fcab37",
+    "95d041fa-c372-480c-b7bf-dc083802852e"
+  ]
+}

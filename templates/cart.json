@@ -1,0 +1,55 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-cart",
+      "settings": {}
+    },
+    "recently-viewed": {
+      "type": "recently-viewed",
+      "settings": {}
+    },
+    "featured-collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Popular picks"
+      }
+    },
+    "0acfc2c7-157d-4936-a44b-1c95578384ba": {
+      "type": "apps",
+      "blocks": {
+        "c7b1cb3e-39c4-4977-a1fd-e3c57fea4bef": {
+          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/recommendation\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+            "widgetId": "cartpage-757123"
+          }
+        }
+      },
+      "block_order": [
+        "c7b1cb3e-39c4-4977-a1fd-e3c57fea4bef"
+      ],
+      "settings": {}
+    },
+    "c143817f-a4ff-4c18-84af-42e57808e8a6": {
+      "type": "apps",
+      "blocks": {
+        "99203067-fb24-42bb-b23c-061cc0294b4d": {
+          "type": "shopify:\/\/apps\/boost-ai-search-discovery\/blocks\/recommendation\/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "settings": {
+            "widgetId": "cartpage-567870"
+          }
+        }
+      },
+      "block_order": [
+        "99203067-fb24-42bb-b23c-061cc0294b4d"
+      ],
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "recently-viewed",
+    "featured-collection",
+    "0acfc2c7-157d-4936-a44b-1c95578384ba",
+    "c143817f-a4ff-4c18-84af-42e57808e8a6"
+  ]
+}

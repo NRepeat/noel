@@ -1,0 +1,36 @@
+{
+  "sections": {
+    "designer": {
+      "type": "designer",
+      "blocks": {
+        "slide_6p67wt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/diann-slideshow1.png"
+          }
+        },
+        "slide_VKUE89": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/diann-slideshow2.png"
+          }
+        }
+      },
+      "block_order": [
+        "slide_6p67wt",
+        "slide_VKUE89"
+      ],
+      "settings": {
+        "photo": "{{ metaobject.photo.value }}",
+        "name": "{{ metaobject.name.value }}",
+        "address": "{{ metaobject.address.value }}",
+        "phone": "{{ metaobject.phone.value }}",
+        "email": "{{ metaobject.email.value }}",
+        "description": "{{ metaobject.description | metafield_tag }}"
+      }
+    }
+  },
+  "order": [
+    "designer"
+  ]
+}

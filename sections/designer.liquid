@@ -1,0 +1,104 @@
+<section class="page-width designer-section-wrapper">
+  <div class="designer-section">
+    <div>
+      <img
+        src="{{ section.settings.photo | image_url }}"
+        alt="{{ section.settings.name }}"
+        class="designer_photo"
+        width=""
+        height=""
+      >
+
+      <div class="designer_info"><span>Name:</span> {{ section.settings.name }}</div>
+      <div class="designer_info"><span>Address:</span> {{ section.settings.address }}</div>
+      <div class="designer_info"><span>Phone:</span> {{ section.settings.phone }}</div>
+      <div class="designer_info">
+        <span>Email:</span> <a href="mailto:{{ section.settings.email }}">{{ section.settings.email }}</a>
+      </div>
+    </div>
+
+    <div class="designer_slider_container">
+      <div class="designer_slider">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'slide' %}
+              <img
+                src="{{ block.settings.image | image_url }}"
+                alt="{{ block.settings.image.alt | default: 'design' }}"
+                width=""
+                height=""
+                class="designer-slide"
+              >
+          {% endcase %}
+        {% endfor %}
+      </div>
+      <div class="designer_description">{{ section.settings.description }}</div>
+
+      {% render 'consultation-form' %}
+    </div>
+  </div>
+</section>
+
+<script>
+  $('.designer_slider').slick({
+    infinite: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 5000,
+    arrows: false,
+    dots: true,
+    fade: true,
+  });
+</script>
+
+{% schema %}
+{
+  "name": "Designer",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "photo",
+      "label": "Photo"
+    },
+    {
+      "type": "text",
+      "id": "name",
+      "label": "Name"
+    },
+    {
+      "type": "text",
+      "id": "address",
+      "label": "Addresss"
+    },
+    {
+      "type": "text",
+      "id": "phone",
+      "label": "Phone"
+    },
+    {
+      "type": "text",
+      "id": "email",
+      "label": "Email"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

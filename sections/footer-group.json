@@ -1,0 +1,106 @@
+{
+  "type": "footer",
+  "name": "t:sections.footer-group.name",
+  "sections": {
+    "footer-promotions": {
+      "type": "footer-promotions",
+      "blocks": {
+        "footer-promotions-0": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "footer-promotions-1": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        },
+        "footer-promotions-2": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "enable_image": true,
+            "image_mask": "none",
+            "title": "Site-wide promotion",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "button_label": "Optional button",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "footer-promotions-0",
+        "footer-promotions-1",
+        "footer-promotions-2"
+      ],
+      "settings": {
+        "hide_homepage": false
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "1494301487048": {
+          "type": "logo_social",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/logo.png",
+            "desktop_logo_height": 88,
+            "container_width": 15
+          }
+        },
+        "1494301487049": {
+          "type": "menu",
+          "settings": {
+            "show_footer_title": false,
+            "menu": "footer",
+            "container_width": 20
+          }
+        },
+        "4c234d25-685d-4dbc-b37e-07a8f1f1ed3f": {
+          "type": "custom",
+          "settings": {
+            "show_footer_title": true,
+            "title": "Store Location",
+            "text": "<p><strong>Noël Furniture<\/strong><\/p><p>2727 SW Freeway<br\/>Houston, TX 77098<br\/><br\/><strong>Phone:<\/strong> 713-874-5200<\/p><p><a href=\"\/pages\/contact\" title=\"Contact\"><strong>Get Directions<\/strong><\/a><\/p>",
+            "link-text": "",
+            "link-url": "",
+            "container_width": 29
+          }
+        }
+      },
+      "block_order": [
+        "1494301487048",
+        "1494301487049",
+        "4c234d25-685d-4dbc-b37e-07a8f1f1ed3f"
+      ],
+      "settings": {
+        "show_locale_selector": false,
+        "show_currency_selector": true,
+        "show_currency_flags": true,
+        "additional_menu": "additional-footer-menu",
+        "about_text": "Noël Furniture features a large selection of quality living room, bedroom, dining room, home office, and entertainment furniture as well as mattresses, home decor and accessories. Noël Furniture has a store location in Houston, TX. Noël Furniture serves the surrounding areas of Houston, TX, Galveston, TX, The Woodlands, TX, Katy, TX, Austin, TX , San Antonio, TX, Dallas, TX, Fort Worth, TX, Harlingen, TX, McAllen, TX, Belton \/ Temple \/ Killeen, TX, Plano, TX, Beaumont, TX , Midland, TX, Corpus Christi, TX, Laredo, TX, Lake Charles, LA, Shreveport, LA, Baton Rouge, LA, New Orleans, LA. If you're looking for the perfect furniture to suit your needs as well as your lifestyle, stop by Noël Furniture in Houston, TX today!",
+        "show_payment_icons": false,
+        "show_copyright": true,
+        "copyright_text": ""
+      }
+    }
+  },
+  "order": [
+    "footer-promotions",
+    "footer"
+  ]
+}

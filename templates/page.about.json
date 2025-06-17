@@ -1,0 +1,340 @@
+{
+  "sections": {
+    "b751063c-27e2-44f8-8525-92a9189530ed": {
+      "type": "background-video-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "",
+        "title": "",
+        "text": "",
+        "button_label": "",
+        "button_link": "",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/11810d7200ce479d9345e7ce399a3fdb.mp4",
+        "color_border": "#000000",
+        "layout": "left",
+        "height": 450
+      }
+    },
+    "9d7532a3-fb16-4a52-a4ca-d2e99a1721ea": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "",
+        "title": "Noel Furniture",
+        "text": "<p>2727 SW Freeway Houston, TX 77098<\/p><p><strong>Phone : <\/strong>713.874.5200<\/p><p><strong>Hours of Operation:<\/strong><\/p><p>Monday - Saturday: 10:00 a.m. - 6:00 p.m.<br\/>Sunday 1:00 p.m. - 5:00 p.m. <\/p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/NOELAboutUs.jpg",
+        "layout": "left",
+        "height": 550,
+        "framed": false,
+        "parallax": true,
+        "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    },
+    "2b31eb62-aaa4-4a67-8a8c-1a72afc17a3d": {
+      "type": "background-image-text",
+      "disabled": true,
+      "settings": {
+        "subtitle": "NOËL HOME",
+        "title": "HOUSTON’S CHOICE FOR LUXURY FURNITURE",
+        "text": "<p>Noël Home is Houston's premier home furnishing showroom. Centrally located in the historic Upper Kirby district at 59 and Kirby, we feature the most extensive and finest collection of luxury furniture anywhere in the Greater Houston area. Whether your taste is transitional or contemporary, you’ll find a wide variety of high-quality inventory from the most prestigious brands. Explore our 40,000-square-foot store and discover original art, unique home decor, and a broad assortment of hand-woven rugs to accent every room in your home. Our knowledgeable staff and talented interior design experts are standing by to help you select the perfect pieces to complete your ideal living space.<\/p>",
+        "button_label": "",
+        "button_link": "",
+        "image": "shopify:\/\/shop_images\/NOELAboutUs.jpg",
+        "layout": "right",
+        "height": 750,
+        "framed": false,
+        "parallax": true,
+        "parallax_direction": "top",
+        "lazyload_images": true
+      }
+    },
+    "6e9ea7c5-af19-4d2a-9844-8a220b4a8dcd": {
+      "type": "hero-video",
+      "settings": {
+        "title": "Celebrating 46 YEARS OF LUXURY LIVING",
+        "title_size": 57,
+        "subheading": "NOEL HOME",
+        "link_text": "JOIN OUR EMAIL LIST",
+        "link": "",
+        "color_accent": "rgba(0,0,0,0)",
+        "text_align": "vertical-center horizontal-center",
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/11810d7200ce479d9345e7ce399a3fdb.mp4",
+        "overlay_opacity": 0,
+        "section_height": "550px",
+        "mobile_height": "auto"
+      }
+    },
+    "33972478-a806-449b-9329-0d6fe8a851e8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15173126127676__33972478-a806-449b-9329-0d6fe8a851e8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "NOËL HOME | HOUSTON’S CHOICE FOR LUXURY FURNITURE"
+          }
+        },
+        "template--15173126127676__33972478-a806-449b-9329-0d6fe8a851e8-text-1": {
+          "type": "text",
+          "settings": {
+            "enlarge_text": false,
+            "text": "<p>Noël Home is Houston's premier home furnishing showroom. Centrally located in the historic Upper Kirby district at 59 and Kirby, we feature the most extensive and finest collection of luxury furniture anywhere in the Greater Houston area. Whether your taste is transitional or contemporary, you’ll find a wide variety of high-quality inventory from the most prestigious brands. Explore our 40,000-square-foot store and discover original art, unique home decor, and a broad assortment of hand-woven rugs to accent every room in your home. Our knowledgeable staff and talented interior design experts are standing by to help you select the perfect pieces to complete your ideal living space.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--15173126127676__33972478-a806-449b-9329-0d6fe8a851e8-heading-1",
+        "template--15173126127676__33972478-a806-449b-9329-0d6fe8a851e8-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "align_text": "center",
+        "narrow_column": true,
+        "divider": false
+      }
+    },
+    "contact_us_section_4GNHYU": {
+      "type": "contact-us-section",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/EUR-04-0766_15.jpg",
+        "title": "NOËL HOME | HOUSTON’S CHOICE FOR LUXURY FURNITURE",
+        "text": "Noël Home is Houston's premier home furnishing showroom. Centrally located in the historic Upper Kirby district at 59 and Kirby, we feature the most extensive and finest collection of luxury furniture anywhere in the Greater Houston area. Whether your taste is transitional or contemporary, you’ll find a wide variety of high-quality inventory from the most prestigious brands. Explore our 40,000-square-foot store and discover original art, unique home decor, and a broad assortment of hand-woven rugs to accent every room in your home. Our knowledgeable staff and talented interior design experts are standing by to help you select the perfect pieces to complete your ideal living space.",
+        "form_title": "Contact Us"
+      }
+    },
+    "google_map_embed_hG7qwY": {
+      "type": "google-map-embed",
+      "custom_css": [
+        ".google-map-container {margin: 30px 15px;}"
+      ],
+      "settings": {
+        "map_url": "https:\/\/maps.google.com\/maps?z=15&t=m&q=NOEL HOME 2727 SW Freeway Houston, TX 77098&ie=UTF8&output=embed"
+      }
+    },
+    "advanced_content_qTK3dp": {
+      "type": "advanced-content",
+      "blocks": {
+        "image_N6NqX3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/reviews1.webp",
+            "link": "",
+            "width": "50%",
+            "alignment": "center"
+          }
+        },
+        "image_WGxyFF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/star-solid.svg",
+            "link": "",
+            "width": "25%",
+            "alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "image_N6NqX3",
+        "image_WGxyFF"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".custom__item.one-quarter {margin-inline: auto; padding: 0;}",
+        "@media (max-width: 768px) {.custom__item.one-half {margin-bottom: 0; } .custom__item.one-quarter {padding-inline: 20px; margin-top: -20px; }}"
+      ],
+      "settings": {
+        "full_width": false,
+        "space_around": true,
+        "lazyload_images": true
+      }
+    },
+    "cdfba611-5fc3-4724-a93b-9ceef8b040ef": {
+      "type": "map",
+      "disabled": true,
+      "settings": {
+        "map_title": "NOËL FURNITURE",
+        "address": "<p>2727 SW Freeway Houston, TX 77098<\/p><p><strong>Phone: <\/strong>713.322.2251<br\/><\/p><p><strong>Hours of Operation: <\/strong>Monday - Saturday: 10:00 a.m. - 6:00 p.m.<br\/>Sunday: 1:00 p.m. - 5:00 p.m. <\/p>",
+        "map_address": "2727 SW Freeway Houston, TX 77098",
+        "api_key": "",
+        "show_button": false,
+        "gray_scale": true,
+        "background_image": "shopify:\/\/shop_images\/MH650F01_83eca5ee-50ef-41fe-aef0-16879e4f99fb.jpg",
+        "lazyload_images": true
+      }
+    },
+    "81aade33-24f4-498f-b770-bb950a066619": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "title": "Contact us",
+        "text": "",
+        "show_phone": true,
+        "narrow_column": true
+      }
+    },
+    "7e3e2ce4-44ba-4e02-917c-b1a43ebb7c1a": {
+      "type": "logo-list",
+      "blocks": {
+        "template--15173126127676__7e3e2ce4-44ba-4e02-917c-b1a43ebb7c1a-logo_image-1": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SB511detail_5ac48055-e69f-48da-be51-695938318f5b.jpg",
+            "link": ""
+          }
+        },
+        "template--15173126127676__7e3e2ce4-44ba-4e02-917c-b1a43ebb7c1a-logo_image-2": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SB511detail_5ac48055-e69f-48da-be51-695938318f5b.jpg",
+            "link": ""
+          }
+        },
+        "template--15173126127676__7e3e2ce4-44ba-4e02-917c-b1a43ebb7c1a-logo_image-3": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SB511detail_5ac48055-e69f-48da-be51-695938318f5b.jpg",
+            "link": ""
+          }
+        },
+        "template--15173126127676__7e3e2ce4-44ba-4e02-917c-b1a43ebb7c1a-logo_image-4": {
+          "type": "logo_image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SB511detail_5ac48055-e69f-48da-be51-695938318f5b.jpg",
+            "link": "shopify:\/\/products\/abstract-bed-queen"
+          }
+        }
+      },
+      "block_order": [
+        "template--15173126127676__7e3e2ce4-44ba-4e02-917c-b1a43ebb7c1a-logo_image-1",
+        "template--15173126127676__7e3e2ce4-44ba-4e02-917c-b1a43ebb7c1a-logo_image-2",
+        "template--15173126127676__7e3e2ce4-44ba-4e02-917c-b1a43ebb7c1a-logo_image-3",
+        "template--15173126127676__7e3e2ce4-44ba-4e02-917c-b1a43ebb7c1a-logo_image-4"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "logo_opacity": 100,
+        "divider": false
+      }
+    },
+    "b05c0d5e-eb09-4b7e-8118-e4c4c0aedf60": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--15173126127676__b05c0d5e-eb09-4b7e-8118-e4c4c0aedf60-collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "bracci",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "template--15173126127676__b05c0d5e-eb09-4b7e-8118-e4c4c0aedf60-collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "global-views",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "template--15173126127676__b05c0d5e-eb09-4b7e-8118-e4c4c0aedf60-collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "curry-company",
+            "title": "",
+            "focal_point": "center center"
+          }
+        },
+        "template--15173126127676__b05c0d5e-eb09-4b7e-8118-e4c4c0aedf60-collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "hancock-moore",
+            "title": "",
+            "focal_point": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15173126127676__b05c0d5e-eb09-4b7e-8118-e4c4c0aedf60-collection-1",
+        "template--15173126127676__b05c0d5e-eb09-4b7e-8118-e4c4c0aedf60-collection-2",
+        "template--15173126127676__b05c0d5e-eb09-4b7e-8118-e4c4c0aedf60-collection-4",
+        "template--15173126127676__b05c0d5e-eb09-4b7e-8118-e4c4c0aedf60-collection-3"
+      ],
+      "settings": {
+        "title": "",
+        "divider": false,
+        "per_row": 5,
+        "enable_gutter": true
+      }
+    },
+    "9331b57b-02e0-4f52-ad0c-549c131ba2cd": {
+      "type": "testimonials",
+      "blocks": {
+        "template--15173126127676__9331b57b-02e0-4f52-ad0c-549c131ba2cd-testimonial-1": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "image": "shopify:\/\/shop_images\/reviews1.webp",
+            "author": "",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "template--15173126127676__9331b57b-02e0-4f52-ad0c-549c131ba2cd-testimonial-3": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "image": "shopify:\/\/shop_images\/reviews1.webp",
+            "author": "",
+            "author_info": "Los Angeles, CA"
+          }
+        },
+        "template--15173126127676__9331b57b-02e0-4f52-ad0c-549c131ba2cd-testimonial-5": {
+          "type": "testimonial",
+          "settings": {
+            "icon": "5-stars",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+            "image": "shopify:\/\/shop_images\/reviews1.webp",
+            "author": "",
+            "author_info": "Los Angeles, CA"
+          }
+        }
+      },
+      "block_order": [
+        "template--15173126127676__9331b57b-02e0-4f52-ad0c-549c131ba2cd-testimonial-1",
+        "template--15173126127676__9331b57b-02e0-4f52-ad0c-549c131ba2cd-testimonial-3",
+        "template--15173126127676__9331b57b-02e0-4f52-ad0c-549c131ba2cd-testimonial-5"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Testimonials",
+        "align_text": "center",
+        "round_images": false,
+        "color_background": "#f7f7f7",
+        "color_text": "#000000"
+      }
+    },
+    "reviews_DtDmCE": {
+      "type": "reviews",
+      "settings": {}
+    }
+  },
+  "order": [
+    "b751063c-27e2-44f8-8525-92a9189530ed",
+    "9d7532a3-fb16-4a52-a4ca-d2e99a1721ea",
+    "2b31eb62-aaa4-4a67-8a8c-1a72afc17a3d",
+    "6e9ea7c5-af19-4d2a-9844-8a220b4a8dcd",
+    "33972478-a806-449b-9329-0d6fe8a851e8",
+    "contact_us_section_4GNHYU",
+    "google_map_embed_hG7qwY",
+    "advanced_content_qTK3dp",
+    "cdfba611-5fc3-4724-a93b-9ceef8b040ef",
+    "81aade33-24f4-498f-b770-bb950a066619",
+    "7e3e2ce4-44ba-4e02-917c-b1a43ebb7c1a",
+    "b05c0d5e-eb09-4b7e-8118-e4c4c0aedf60",
+    "9331b57b-02e0-4f52-ad0c-549c131ba2cd",
+    "reviews_DtDmCE"
+  ]
+}

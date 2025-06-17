@@ -1,0 +1,132 @@
+<section class="contact_us_section_wrapper">
+  <div class="contact_us_content">
+    <h2>{{ section.settings.title }}</h2>
+    <p class="contact_us_text">{{ section.settings.text }}</p>
+
+    <div>
+      <h3 class="contact_us_form_title">{{ section.settings.form_title }}</h3>
+
+      {%- assign form_id = 'contact-' | append: section.id -%}
+      {%- form 'contact', id: form_id -%}
+        {%- if form.posted_successfully? -%}
+          <p class="note note--success">
+            {{ 'contact.form.post_success' | t }}
+          </p>
+        {%- endif -%}
+
+        {{ form.errors | default_errors }}
+
+        <div class="grid grid--small">
+          <div class="grid__item medium-up--one-half">
+            <label for="ContactFormName-{{ section.id }}" class="required">First name</label>
+            <input
+              type="text"
+              id="ContactFormName-{{ section.id }}"
+              class="input-full"
+              name="contact[name]"
+              autocapitalize="words"
+              placeholder="Enter your first name"
+              value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
+              required
+            >
+          </div>
+
+          <div class="grid__item medium-up--one-half">
+            <label for="ContactFormEmail-{{ section.id }}" class="required">Last name</label>
+            <input
+              type="text"
+              id="ContactFormSurname-{{ section.id }}"
+              class="input-full"
+              name="contact[surname]"
+              autocorrect="off"
+              autocapitalize="off"
+              placeholder="Enter your last name"
+              value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+              required
+            >
+          </div>
+        </div>
+
+        <label for="ContactFormEmail-{{ section.id }}" class="required">{{ 'contact.form.email' | t }}</label>
+        <input
+          type="email"
+          id="ContactFormEmail-{{ section.id }}"
+          class="input-full"
+          name="contact[email]"
+          autocorrect="off"
+          autocapitalize="off"
+          placeholder="Enter your mail"
+          value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
+          required
+        >
+
+        <label for="ContactFormPhone-{{ section.id }}">{{ 'contact.form.phone' | t }}</label>
+        <input
+          type="tel"
+          id="ContactFormPhone-{{ section.id }}"
+          class="input-full"
+          name="contact[phone]"
+          pattern="[0-9\-]*"
+          placeholder="Enter your phone"
+          value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+        >
+
+        <label for="ContactFormMessage-{{ section.id }}" class="required">{{ 'contact.form.message' | t }}</label>
+        <textarea
+          rows="5"
+          id="ContactFormMessage-{{ section.id }}"
+          class="input-full"
+          name="contact[body]"
+          placeholder="Enter your message"
+          required
+        >{% if form.body %}{{ form.body }}{% endif %}</textarea>
+
+        <label for="contact-form-submit-{{ section.id }}" class="hidden-label">{{ 'contact.form.send' | t }}</label>
+        <button type="submit" id="contact-form-submit-{{ section.id }}" class="btn">Submit</button>
+      {%- endform -%}
+    </div>
+  </div>
+
+  <div class="contact_us_image">
+    <img
+      src="{{ section.settings.image | image_url }}"
+      alt="{{ section.settings.image.alt }}"
+      width=""
+      height=""
+    >
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Contact Us",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "form_title",
+      "label": "Form title",
+      "default": "Contact Us"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Contact us section"
+    }
+  ]
+}
+{% endschema %}
