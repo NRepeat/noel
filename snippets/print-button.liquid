@@ -1,0 +1,92 @@
+<button
+  type="button"
+  class="open-print-modal-btn"
+  onclick="openPrintModal(); return false;"
+>
+  Print
+</button>
+
+<div
+  id="print-modal-overlay"
+  style=""
+>
+  <div
+    id="print-modal-content"
+    style=""
+  >
+    <button
+      onclick="closePrintModal()"
+      style="position:absolute;top:12px;right:12px;font-size:1.5em;background:none;border:none;cursor:pointer;"
+    >
+      &times;
+    </button>
+    <iframe
+      id="print-modal-iframe"
+      src=""
+      style="width:100%;height:875px;border:none;"
+    ></iframe>
+  </div>
+</div>
+<style>
+  .open-print-modal-btn {
+    background: black;
+    color: white;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 12px 18px;
+    cursor: pointer;
+    font-family: 'Gotham Book' !important;
+    margin-bottom: 2px;
+  }
+  #print-modal-overlay {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.4);
+  }
+  #print-modal-content {
+    position: relative;
+    max-width: 900px;
+    width: 95vw;
+    height: 90vh;
+    margin: 40px auto;
+    background: #fff;
+    overflow: auto;
+    border-radius: 8px;
+    z-index: 1045;
+  }
+</style>
+<script>
+  function openPrintModal() {
+    const iframe = document.getElementById('print-modal-iframe');
+    const productHandle = '{{ product.handle }}';
+    const shopDomain = '{{ shop.domain }}';
+    const printUrl = `https://${shopDomain}/products/${productHandle}?view=print`;
+    fetch(printUrl)
+      .then((response) => response.text())
+      .then((html) => {
+        iframe.srcdoc = html;
+        document.getElementById('print-modal-overlay').style.display = 'block';
+      });
+  }
+  function closePrintModal() {
+    document.getElementById('print-modal-overlay').style.display = 'none';
+  }
+  // Close modal when clicking outside modal content
+  document.addEventListener('DOMContentLoaded', function () {
+    var overlay = document.getElementById('print-modal-overlay');
+    var content = document.getElementById('print-modal-content');
+    if (overlay && content) {
+      overlay.addEventListener('mousedown', function (e) {
+        if (!content.contains(e.target)) {
+          closePrintModal();
+        }
+      });
+    }
+  });
+</script>

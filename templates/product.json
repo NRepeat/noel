@@ -10,6 +10,13 @@
             "phone_text": "Call for pricing"
           }
         },
+        "download_button_wmkNPX": {
+          "type": "download_button",
+          "settings": {
+            "is_tab": false,
+            "title": "Download pdf"
+          }
+        },
         "separator": {
           "type": "separator",
           "settings": {}
@@ -118,6 +125,7 @@
       },
       "block_order": [
         "price",
+        "download_button_wmkNPX",
         "separator",
         "variant_picker",
         "22ded710-e2ef-45b7-bbee-00a154af4cba",

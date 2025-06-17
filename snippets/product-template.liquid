@@ -148,6 +148,8 @@
               {%- capture form_id -%}AddToCartForm-{{ section_id }}-{{ product.id }}{%- endcapture -%}
               {%- for block in blocks -%}
                 {%- case block.type -%}
+                 {%- when 'print_button' -%}
+                    {% render 'print-button' %}
                   {%- when '@app' -%}
                     {% render block %}
                   {%- when 'separator' -%}
