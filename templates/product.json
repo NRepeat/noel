@@ -19,6 +19,12 @@
             "phone_text": "Call for pricing"
           }
         },
+        "print_button_38VckQ": {
+          "type": "print_button",
+          "settings": {
+            "title": "Print pdf"
+          }
+        },
         "separator": {
           "type": "separator",
           "settings": {}
@@ -127,6 +133,7 @@
       },
       "block_order": [
         "price",
+        "print_button_38VckQ",
         "separator",
         "variant_picker",
         "22ded710-e2ef-45b7-bbee-00a154af4cba",

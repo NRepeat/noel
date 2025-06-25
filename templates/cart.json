@@ -27,7 +27,7 @@
       "type": "apps",
       "blocks": {
         "c7b1cb3e-39c4-4977-a1fd-e3c57fea4bef": {
-          "type": "shopify://apps/boost-ai-search-discovery/blocks/recommendation/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "type": "shopify://apps/boost-ai-search-filter/blocks/recommendation/7fc998ae-a150-4367-bab8-505d8a4503f7",
           "settings": {
             "widgetId": "cartpage-757123"
           }
@@ -42,7 +42,7 @@
       "type": "apps",
       "blocks": {
         "99203067-fb24-42bb-b23c-061cc0294b4d": {
-          "type": "shopify://apps/boost-ai-search-discovery/blocks/recommendation/7fc998ae-a150-4367-bab8-505d8a4503f7",
+          "type": "shopify://apps/boost-ai-search-filter/blocks/recommendation/7fc998ae-a150-4367-bab8-505d8a4503f7",
           "settings": {
             "widgetId": "cartpage-567870"
           }

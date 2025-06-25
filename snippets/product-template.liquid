@@ -143,13 +143,89 @@
                 </p>
               {%- endif -%}
             </div>
-
             <div data-product-blocks>
               {%- capture form_id -%}AddToCartForm-{{ section_id }}-{{ product.id }}{%- endcapture -%}
               {%- for block in blocks -%}
                 {%- case block.type -%}
-                 {%- when 'print_button' -%}
-                    {% render 'print-button' %}
+                  {%- when 'print_button' -%}
+                    {% render 'print-button', isPrintButton: true %}
+
+                  {% when 'download_button' %}
+                    {% if product.metafields.custom.pdf_file.value != blank %}
+                      <div
+                        class="product-block{% if block.settings.is_tab %} product-block--tab{% endif %}"
+                        {{ block.shopify_attributes }}
+                      >
+                        {%- assign id = block.id | append: product.id -%}
+                        {% if block.settings.is_tab %}
+                          <div class="collapsibles-wrapper collapsibles-wrapper--border-bottom">
+                            <button
+                              type="button"
+                              class=" label collapsible-trigger collapsible-trigger-btn collapsible-trigger-btn--borders collapsible--auto-height{% if force_open %} is-open{% endif %}"
+                              aria-controls="Product-content-{{ id }}"
+                              {% if force_open %}
+                                aria-expanded="true"
+                              {% endif %}
+                            >
+                              {{ block.settings.title }}
+                              {%- render 'collapsible-icons' -%}
+                            </button>
+                            <div
+                              id="Product-content-{{ id }}"
+                              class="collapsible-content collapsible-content--all{% if force_open %} is-open{% endif %}"
+                              {% if force_open %}
+                                style="height: auto;"
+                              {% endif %}
+                            >
+                              <div class="collapsible-content__inner rte">
+                                {% assign pdf = product.metafields.custom.pdf_file.value.url %}
+                                {% if pdf %}
+                                  <a
+                                    href="{{ pdf }}"
+                                    target="_blank"
+                                    type="application/pdf"
+                                    >Download</a
+                                  >
+                                {% else %}
+                                  <p>No PDF available</p>
+                                {% endif %}
+                              </div>
+                            </div>
+                          </div>
+                        {% else %}
+                          <a
+                            class="open-print-modal-btn"
+                            href="{{ pdf }}"
+                            target="_blank"
+                            type="application/pdf"
+                          >
+                            <svg
+                              style="margin-right: 5px; vertical-align: middle; padding-bottom: 1px;"
+                              fill="#ffffff"
+                              height="25px"
+                              width="25px"
+                              version="1.1"
+                              id="Capa_1"
+                              xmlns="http://www.w3.org/2000/svg"
+                              xmlns:xlink="http://www.w3.org/1999/xlink"
+                              viewBox="0 0 211.293 211.293"
+                              xml:space="preserve"
+                            >
+                              <g>
+                                <path d="M176.777,54.027H133.43c-4.143,0-7.5,3.357-7.5,7.5c0,4.142,3.357,7.5,7.5,7.5h35.848v127.266H42.016V69.027h35.844
+                                  c4.143,0,7.5-3.357,7.5-7.5c0-4.143-3.357-7.5-7.5-7.5H34.516c-4.142,0-7.5,3.357-7.5,7.5v142.266c0,4.143,3.358,7.5,7.5,7.5
+                                  h142.262c4.143,0,7.5-3.357,7.5-7.5V61.527C184.277,57.385,180.92,54.027,176.777,54.027z"/>
+                                <path d="M82.058,101.468c-2.929-2.929-7.678-2.93-10.606-0.001c-2.93,2.93-2.93,7.678-0.001,10.607l28.889,28.89
+                                  c1.407,1.407,3.314,2.197,5.304,2.197c1.989,0,3.896-0.79,5.303-2.196l28.891-28.89c2.93-2.929,2.93-7.678,0.001-10.606
+                                  c-2.929-2.929-7.678-2.93-10.606-0.001l-16.088,16.087V7.5c0-4.143-3.357-7.5-7.5-7.5s-7.5,3.357-7.5,7.5v110.054L82.058,101.468z"
+                                  />
+                              </g>
+                            </svg>
+                            Download
+                          </a>
+                        {% endif %}
+                      </div>
+                    {% endif %}
                   {%- when '@app' -%}
                     {% render block %}
                   {%- when 'separator' -%}
@@ -223,14 +299,16 @@
                             {% endif %}
                           >
                             <div class="collapsible-content__inner rte">
-                               {% assign zero_value_filter = '<span class="metafield-multi_line_text_field">0</span>' %}
+                              {% assign zero_value_filter = '<span class="metafield-multi_line_text_field">0</span>' %}
                               {% if weight != blank and weight != zero_value_filter %}
                                 <p>Weight: {{ weight }} lbs</p>
                               {% endif %}
-  
-                               {% if  diameter != blank or depth != blank or width != blank or height != blank %}
+
+                              {% if diameter != blank or depth != blank or width != blank or height != blank %}
                                 <p>
-                                  {% if diameter != blank and  diameter != zero_value_filter %}{{ diameter }}"Diameter x{% endif %}
+                                  {% if diameter != blank and diameter != zero_value_filter -%}
+                                    {{- diameter }}"Diameter x
+                                  {%- endif %}
                                   {% if width != blank and width != zero_value_filter %}{{ width }}"W x{% endif %}
                                   {% if depth != blank and depth != zero_value_filter %}{{ depth }}"D x{% endif %}
                                   {% if height != blank and height != zero_value_filter %}{{ height }}"H{% endif %}
@@ -462,80 +540,6 @@
                         ></div>
                       {%- endif -%}
                     </div>
-
-                  {% when 'download_button' %}
-                    {% if product.metafields.custom.pdf_file.value != blank %}
-                      <div
-                        class="product-block{% if block.settings.is_tab %} product-block--tab{% endif %}"
-                        {{ block.shopify_attributes }}
-                      >
-                        {%- assign id = block.id | append: product.id -%}
-                        {% if block.settings.is_tab %}
-                          <div class="collapsibles-wrapper collapsibles-wrapper--border-bottom">
-                            <button
-                              type="button"
-                              class="label collapsible-trigger collapsible-trigger-btn collapsible-trigger-btn--borders collapsible--auto-height{% if force_open %} is-open{% endif %}"
-                              aria-controls="Product-content-{{ id }}"
-                              {% if force_open %}
-                                aria-expanded="true"
-                              {% endif %}
-                            >
-                              {{ block.settings.title }}
-                              {%- render 'collapsible-icons' -%}
-                            </button>
-                            <div
-                              id="Product-content-{{ id }}"
-                              class="collapsible-content collapsible-content--all{% if force_open %} is-open{% endif %}"
-                              {% if force_open %}
-                                style="height: auto;"
-                              {% endif %}
-                            >
-                              <div class="collapsible-content__inner rte">
-                                {% assign pdf = product.metafields.custom.pdf_file.value.url %}
-                                {% if pdf %}
-                                  <a
-                                    href="{{ pdf }}"
-                                    target="_blank"
-                                    type="application/pdf"
-                                    >Download</a
-                                  >
-                                {% else %}
-                                  <p>No PDF available</p>
-                                {% endif %}
-                              </div>
-                            </div>
-                          </div>
-                        {% else %}
-                          <a
-                            href="{{ pdf }}"
-                            target="_blank"
-                            type="application/pdf"
-                          >
-                            <svg
-                              fill="#000000"
-                              height="20px"
-                              width="20px"
-                              version="1.1"
-                              id="Capa_1"
-                              xmlns="http://www.w3.org/2000/svg"
-                              xmlns:xlink="http://www.w3.org/1999/xlink"
-                              viewBox="0 0 211.293 211.293"
-                              xml:space="preserve"
-                            >
-                              <g>
-                                <path d="M176.777,54.027H133.43c-4.143,0-7.5,3.357-7.5,7.5c0,4.142,3.357,7.5,7.5,7.5h35.848v127.266H42.016V69.027h35.844
-                                  c4.143,0,7.5-3.357,7.5-7.5c0-4.143-3.357-7.5-7.5-7.5H34.516c-4.142,0-7.5,3.357-7.5,7.5v142.266c0,4.143,3.358,7.5,7.5,7.5
-                                  h142.262c4.143,0,7.5-3.357,7.5-7.5V61.527C184.277,57.385,180.92,54.027,176.777,54.027z"/>
-                                <path d="M82.058,101.468c-2.929-2.929-7.678-2.93-10.606-0.001c-2.93,2.93-2.93,7.678-0.001,10.607l28.889,28.89
-                                  c1.407,1.407,3.314,2.197,5.304,2.197c1.989,0,3.896-0.79,5.303-2.196l28.891-28.89c2.93-2.929,2.93-7.678,0.001-10.606
-                                  c-2.929-2.929-7.678-2.93-10.606-0.001l-16.088,16.087V7.5c0-4.143-3.357-7.5-7.5-7.5s-7.5,3.357-7.5,7.5v110.054L82.058,101.468z"
-                                  />
-                              </g>
-                            </svg>
-                          </a>
-                        {% endif %}
-                      </div>
-                    {% endif %}
                   {%- when 'sales_point' -%}
                     {%- unless block.settings.text == blank -%}
                       <div class="product-block product-block--sales-point" {{ block.shopify_attributes }}>
