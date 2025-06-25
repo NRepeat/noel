@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "b751063c-27e2-44f8-8525-92a9189530ed": {
@@ -9,7 +18,7 @@
         "text": "",
         "button_label": "",
         "button_link": "",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/11810d7200ce479d9345e7ce399a3fdb.mp4",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/11810d7200ce479d9345e7ce399a3fdb.mp4",
         "color_border": "#000000",
         "layout": "left",
         "height": 450
@@ -21,10 +30,10 @@
       "settings": {
         "subtitle": "",
         "title": "Noel Furniture",
-        "text": "<p>2727 SW Freeway Houston, TX 77098<\/p><p><strong>Phone : <\/strong>713.874.5200<\/p><p><strong>Hours of Operation:<\/strong><\/p><p>Monday - Saturday: 10:00 a.m. - 6:00 p.m.<br\/>Sunday 1:00 p.m. - 5:00 p.m. <\/p>",
+        "text": "<p>2727 SW Freeway Houston, TX 77098</p><p><strong>Phone : </strong>713.874.5200</p><p><strong>Hours of Operation:</strong></p><p>Monday - Saturday: 10:00 a.m. - 6:00 p.m.<br/>Sunday 1:00 p.m. - 5:00 p.m. </p>",
         "button_label": "",
         "button_link": "",
-        "image": "shopify:\/\/shop_images\/NOELAboutUs.jpg",
+        "image": "shopify://shop_images/NOELAboutUs.jpg",
         "layout": "left",
         "height": 550,
         "framed": false,
@@ -39,10 +48,10 @@
       "settings": {
         "subtitle": "NOËL HOME",
         "title": "HOUSTON’S CHOICE FOR LUXURY FURNITURE",
-        "text": "<p>Noël Home is Houston's premier home furnishing showroom. Centrally located in the historic Upper Kirby district at 59 and Kirby, we feature the most extensive and finest collection of luxury furniture anywhere in the Greater Houston area. Whether your taste is transitional or contemporary, you’ll find a wide variety of high-quality inventory from the most prestigious brands. Explore our 40,000-square-foot store and discover original art, unique home decor, and a broad assortment of hand-woven rugs to accent every room in your home. Our knowledgeable staff and talented interior design experts are standing by to help you select the perfect pieces to complete your ideal living space.<\/p>",
+        "text": "<p>Noël Home is Houston's premier home furnishing showroom. Centrally located in the historic Upper Kirby district at 59 and Kirby, we feature the most extensive and finest collection of luxury furniture anywhere in the Greater Houston area. Whether your taste is transitional or contemporary, you’ll find a wide variety of high-quality inventory from the most prestigious brands. Explore our 40,000-square-foot store and discover original art, unique home decor, and a broad assortment of hand-woven rugs to accent every room in your home. Our knowledgeable staff and talented interior design experts are standing by to help you select the perfect pieces to complete your ideal living space.</p>",
         "button_label": "",
         "button_link": "",
-        "image": "shopify:\/\/shop_images\/NOELAboutUs.jpg",
+        "image": "shopify://shop_images/NOELAboutUs.jpg",
         "layout": "right",
         "height": 750,
         "framed": false,
@@ -61,7 +70,7 @@
         "link": "",
         "color_accent": "rgba(0,0,0,0)",
         "text_align": "vertical-center horizontal-center",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/11810d7200ce479d9345e7ce399a3fdb.mp4",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/11810d7200ce479d9345e7ce399a3fdb.mp4",
         "overlay_opacity": 0,
         "section_height": "550px",
         "mobile_height": "auto"
@@ -80,7 +89,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Noël Home is Houston's premier home furnishing showroom. Centrally located in the historic Upper Kirby district at 59 and Kirby, we feature the most extensive and finest collection of luxury furniture anywhere in the Greater Houston area. Whether your taste is transitional or contemporary, you’ll find a wide variety of high-quality inventory from the most prestigious brands. Explore our 40,000-square-foot store and discover original art, unique home decor, and a broad assortment of hand-woven rugs to accent every room in your home. Our knowledgeable staff and talented interior design experts are standing by to help you select the perfect pieces to complete your ideal living space.<\/p>"
+            "text": "<p>Noël Home is Houston's premier home furnishing showroom. Centrally located in the historic Upper Kirby district at 59 and Kirby, we feature the most extensive and finest collection of luxury furniture anywhere in the Greater Houston area. Whether your taste is transitional or contemporary, you’ll find a wide variety of high-quality inventory from the most prestigious brands. Explore our 40,000-square-foot store and discover original art, unique home decor, and a broad assortment of hand-woven rugs to accent every room in your home. Our knowledgeable staff and talented interior design experts are standing by to help you select the perfect pieces to complete your ideal living space.</p>"
           }
         }
       },
@@ -98,7 +107,7 @@
     "contact_us_section_4GNHYU": {
       "type": "contact-us-section",
       "settings": {
-        "image": "shopify:\/\/shop_images\/EUR-04-0766_15.jpg",
+        "image": "shopify://shop_images/EUR-04-0766_15.jpg",
         "title": "NOËL HOME | HOUSTON’S CHOICE FOR LUXURY FURNITURE",
         "text": "Noël Home is Houston's premier home furnishing showroom. Centrally located in the historic Upper Kirby district at 59 and Kirby, we feature the most extensive and finest collection of luxury furniture anywhere in the Greater Houston area. Whether your taste is transitional or contemporary, you’ll find a wide variety of high-quality inventory from the most prestigious brands. Explore our 40,000-square-foot store and discover original art, unique home decor, and a broad assortment of hand-woven rugs to accent every room in your home. Our knowledgeable staff and talented interior design experts are standing by to help you select the perfect pieces to complete your ideal living space.",
         "form_title": "Contact Us"
@@ -110,7 +119,7 @@
         ".google-map-container {margin: 30px 15px;}"
       ],
       "settings": {
-        "map_url": "https:\/\/maps.google.com\/maps?z=15&t=m&q=NOEL HOME 2727 SW Freeway Houston, TX 77098&ie=UTF8&output=embed"
+        "map_url": "https://maps.google.com/maps?z=15&t=m&q=NOEL HOME 2727 SW Freeway Houston, TX 77098&ie=UTF8&output=embed"
       }
     },
     "advanced_content_qTK3dp": {
@@ -119,7 +128,7 @@
         "image_N6NqX3": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/reviews1.webp",
+            "image": "shopify://shop_images/reviews1.webp",
             "link": "",
             "width": "50%",
             "alignment": "center"
@@ -128,7 +137,7 @@
         "image_WGxyFF": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/star-solid.svg",
+            "image": "shopify://shop_images/star-solid.svg",
             "link": "",
             "width": "25%",
             "alignment": "center"
@@ -155,12 +164,12 @@
       "disabled": true,
       "settings": {
         "map_title": "NOËL FURNITURE",
-        "address": "<p>2727 SW Freeway Houston, TX 77098<\/p><p><strong>Phone: <\/strong>713.322.2251<br\/><\/p><p><strong>Hours of Operation: <\/strong>Monday - Saturday: 10:00 a.m. - 6:00 p.m.<br\/>Sunday: 1:00 p.m. - 5:00 p.m. <\/p>",
+        "address": "<p>2727 SW Freeway Houston, TX 77098</p><p><strong>Phone: </strong>713.322.2251<br/></p><p><strong>Hours of Operation: </strong>Monday - Saturday: 10:00 a.m. - 6:00 p.m.<br/>Sunday: 1:00 p.m. - 5:00 p.m. </p>",
         "map_address": "2727 SW Freeway Houston, TX 77098",
         "api_key": "",
         "show_button": false,
         "gray_scale": true,
-        "background_image": "shopify:\/\/shop_images\/MH650F01_83eca5ee-50ef-41fe-aef0-16879e4f99fb.jpg",
+        "background_image": "shopify://shop_images/MH650F01_83eca5ee-50ef-41fe-aef0-16879e4f99fb.jpg",
         "lazyload_images": true
       }
     },
@@ -180,29 +189,29 @@
         "template--15173126127676__7e3e2ce4-44ba-4e02-917c-b1a43ebb7c1a-logo_image-1": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SB511detail_5ac48055-e69f-48da-be51-695938318f5b.jpg",
+            "image": "shopify://shop_images/SB511detail_5ac48055-e69f-48da-be51-695938318f5b.jpg",
             "link": ""
           }
         },
         "template--15173126127676__7e3e2ce4-44ba-4e02-917c-b1a43ebb7c1a-logo_image-2": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SB511detail_5ac48055-e69f-48da-be51-695938318f5b.jpg",
+            "image": "shopify://shop_images/SB511detail_5ac48055-e69f-48da-be51-695938318f5b.jpg",
             "link": ""
           }
         },
         "template--15173126127676__7e3e2ce4-44ba-4e02-917c-b1a43ebb7c1a-logo_image-3": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SB511detail_5ac48055-e69f-48da-be51-695938318f5b.jpg",
+            "image": "shopify://shop_images/SB511detail_5ac48055-e69f-48da-be51-695938318f5b.jpg",
             "link": ""
           }
         },
         "template--15173126127676__7e3e2ce4-44ba-4e02-917c-b1a43ebb7c1a-logo_image-4": {
           "type": "logo_image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/SB511detail_5ac48055-e69f-48da-be51-695938318f5b.jpg",
-            "link": "shopify:\/\/products\/abstract-bed-queen"
+            "image": "shopify://shop_images/SB511detail_5ac48055-e69f-48da-be51-695938318f5b.jpg",
+            "link": "shopify://products/abstract-bed-queen"
           }
         }
       },
@@ -275,8 +284,8 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "image": "shopify:\/\/shop_images\/reviews1.webp",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "image": "shopify://shop_images/reviews1.webp",
             "author": "",
             "author_info": "Los Angeles, CA"
           }
@@ -285,8 +294,8 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "image": "shopify:\/\/shop_images\/reviews1.webp",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "image": "shopify://shop_images/reviews1.webp",
             "author": "",
             "author_info": "Los Angeles, CA"
           }
@@ -295,8 +304,8 @@
           "type": "testimonial",
           "settings": {
             "icon": "5-stars",
-            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
-            "image": "shopify:\/\/shop_images\/reviews1.webp",
+            "testimonial": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.</p>",
+            "image": "shopify://shop_images/reviews1.webp",
             "author": "",
             "author_info": "Los Angeles, CA"
           }

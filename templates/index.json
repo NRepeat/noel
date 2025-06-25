@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow": {
@@ -10,14 +19,14 @@
             "title": "NOEL\nHOME",
             "title_size": 80,
             "subheading": "LUXURY LIVING",
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify://collections/all",
             "link_text": "SHOP ALL",
-            "link_2": "shopify:\/\/collections\/all",
+            "link_2": "shopify://collections/all",
             "link_text_2": "FEATURED",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "mobile_text_align": "mobile-vertical-center mobile-horizontal-center",
-            "image": "shopify:\/\/shop_images\/CG2_Room_Scene1_Shopify_Test1.jpg",
+            "image": "shopify://shop_images/CG2_Room_Scene1_Shopify_Test1.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 40
           }
@@ -29,14 +38,14 @@
             "title": "OBSESSED \nWITH DESIGN",
             "title_size": 63,
             "subheading": "NOËL HOME | LUXURY LIVING",
-            "link": "shopify:\/\/collections\/all",
+            "link": "shopify://collections/all",
             "link_text": "About Us",
-            "link_2": "shopify:\/\/collections\/all",
+            "link_2": "shopify://collections/all",
             "link_text_2": "Meet our design team",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-left",
             "mobile_text_align": "mobile-vertical-center mobile-horizontal-center",
-            "image": "shopify:\/\/shop_images\/IMG_0119.jpg",
+            "image": "shopify://shop_images/IMG_0119.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 20
           }
@@ -81,12 +90,12 @@
             "subheading": "Noël Home is Houston's premier home furnishing showroom. Centrally located in the historic Upper Kirby district at 59 and Kirby, we feature the most extensive and finest collection of luxury furniture anywhere in the Greater Houston area.",
             "link": "",
             "link_text": "Learn More",
-            "link_2": "shopify:\/\/pages\/about-us-updated",
+            "link_2": "shopify://pages/about-us-updated",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "mobile_text_align": "mobile-vertical-center mobile-horizontal-center",
-            "image": "shopify:\/\/shop_images\/NOELHero2.jpg",
+            "image": "shopify://shop_images/NOELHero2.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 50
           }
@@ -114,7 +123,7 @@
           "settings": {
             "icon": "gears",
             "title": "Design Services",
-            "text": "<p>Use this section to explain a set of product features<\/p>"
+            "text": "<p>Use this section to explain a set of product features</p>"
           }
         },
         "template--15166138023996__6215c195-93de-4fbd-aa5e-2935f0848703-text_block-2": {
@@ -122,7 +131,7 @@
           "settings": {
             "icon": "shield",
             "title": "Custom Window Treatment",
-            "text": "<p>Use this section to explain a set of product features, <\/p>"
+            "text": "<p>Use this section to explain a set of product features, </p>"
           }
         },
         "template--15166138023996__6215c195-93de-4fbd-aa5e-2935f0848703-text_block-3": {
@@ -130,7 +139,7 @@
           "settings": {
             "icon": "trophy",
             "title": "Our design Team",
-            "text": "<p>Use this section to explain a set of product features,<\/p>"
+            "text": "<p>Use this section to explain a set of product features,</p>"
           }
         }
       },
@@ -171,7 +180,7 @@
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
             "mobile_text_align": "mobile-vertical-center mobile-horizontal-center",
-            "image": "shopify:\/\/shop_images\/mx114570_mx114569_mx114008_mx114009_id111295.jpg",
+            "image": "shopify://shop_images/mx114570_mx114569_mx114008_mx114009_id111295.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 16
           }
@@ -218,10 +227,10 @@
         "title_size": 51,
         "subheading": "The Legacy Collection",
         "link_text": "Explore the collection",
-        "link": "shopify:\/\/collections\/christopher-guy",
+        "link": "shopify://collections/christopher-guy",
         "color_accent": "rgba(0,0,0,0)",
         "text_align": "vertical-center horizontal-center",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/7b44e1373d754c78a5e7084a49c74329.mp4",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/7b44e1373d754c78a5e7084a49c74329.mp4",
         "overlay_opacity": 18,
         "section_height": "650px",
         "mobile_height": "auto"
@@ -233,10 +242,10 @@
       "settings": {
         "subtitle": "CHRISTOPHER GUY",
         "title": "LEGACY COLLECTION",
-        "text": "<p>The Legacy Collection is a celebration of Christopher Guy Harrison’s daring, complex, yet sophisticatedly detailed, design style.<\/p>",
+        "text": "<p>The Legacy Collection is a celebration of Christopher Guy Harrison’s daring, complex, yet sophisticatedly detailed, design style.</p>",
         "button_label": "View Collection",
-        "button_link": "shopify:\/\/collections\/christopher-guy",
-        "image": "shopify:\/\/shop_images\/CG13_LEGACY_COLL1_SHOPIFY.jpg",
+        "button_link": "shopify://collections/christopher-guy",
+        "image": "shopify://shop_images/CG13_LEGACY_COLL1_SHOPIFY.jpg",
         "layout": "left",
         "height": 550,
         "framed": false,
@@ -308,13 +317,13 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Noël Home is Houston's premier home furnishing showroom. Centrally located in the historic Upper Kirby district at 59 and Kirby, we feature the most extensive and finest collection of luxury furniture anywhere in the Greater Houston area.<\/p>"
+            "text": "<p>Noël Home is Houston's premier home furnishing showroom. Centrally located in the historic Upper Kirby district at 59 and Kirby, we feature the most extensive and finest collection of luxury furniture anywhere in the Greater Houston area.</p>"
           }
         },
         "8fcef81d-dabd-4ac8-926d-3a91d868891c": {
           "type": "button",
           "settings": {
-            "link": "shopify:\/\/pages\/about-us-updated",
+            "link": "shopify://pages/about-us-updated",
             "link_text": "Learn More"
           }
         }
@@ -337,7 +346,7 @@
         "template--14952483815484__725a29e3-924d-4757-9a2c-dd6a1c5ce05a-16662812384f16606a-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1.png",
+            "image": "shopify://shop_images/1.png",
             "link": "",
             "width": "33%",
             "alignment": "center"
@@ -346,7 +355,7 @@
         "d2d43b84-b777-425c-b87a-a71ca9c693f6": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2.png",
+            "image": "shopify://shop_images/2.png",
             "link": "",
             "width": "33%",
             "alignment": "center"
@@ -355,7 +364,7 @@
         "c9a47bcd-03b0-40ef-b917-a2ffeeaf4e34": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/3.png",
+            "image": "shopify://shop_images/3.png",
             "link": "",
             "width": "33%",
             "alignment": "center"
@@ -384,7 +393,7 @@
             "heading": "Announce your promotion",
             "textarea": "Include the smaller details of your promotion in text below the title.",
             "cta_text1": "Shop This",
-            "cta_link1": "shopify:\/\/collections\/all",
+            "cta_link1": "shopify://collections/all",
             "cta_text2": "Shop All",
             "cta_link2": "",
             "video_url": "",
@@ -404,7 +413,7 @@
             "heading": "Announce your promotion",
             "textarea": "Include the smaller details of your promotion in text below the title.",
             "cta_text1": "Shop This",
-            "cta_link1": "shopify:\/\/collections\/all",
+            "cta_link1": "shopify://collections/all",
             "cta_text2": "Shop All",
             "cta_link2": "",
             "video_url": "",
@@ -441,7 +450,7 @@
             "heading": "Announce your promotion",
             "textarea": "Include the smaller details of your promotion in text below the title.",
             "cta_text1": "Shop This",
-            "cta_link1": "shopify:\/\/collections\/all",
+            "cta_link1": "shopify://collections/all",
             "cta_text2": "Shop All",
             "cta_link2": "",
             "video_url": "",
@@ -517,7 +526,7 @@
       "type": "apps",
       "blocks": {
         "instafeed_app_block_hgyF6F": {
-          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify://apps/instafeed/blocks/app-block/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
             "title": "",
             "title_color": "",
@@ -539,7 +548,7 @@
     "google_map_embed_XyajHB": {
       "type": "google-map-embed",
       "settings": {
-        "map_url": "https:\/\/maps.google.com\/maps?z=15&t=m&q=NOEL HOME 2727 SW Freeway Houston, TX 77098&ie=UTF8&output=embed"
+        "map_url": "https://maps.google.com/maps?z=15&t=m&q=NOEL HOME 2727 SW Freeway Houston, TX 77098&ie=UTF8&output=embed"
       }
     },
     "map": {
@@ -547,7 +556,7 @@
       "disabled": true,
       "settings": {
         "map_title": "Location & Directions",
-        "address": "<p>2727 SW Freeway<br\/>Houston, TX 77098<\/p><p>Mon - Sat, 10:00am - 6:00pm<br\/>Sunday, 1:00pm - 6:00pm<\/p>",
+        "address": "<p>2727 SW Freeway<br/>Houston, TX 77098</p><p>Mon - Sat, 10:00am - 6:00pm<br/>Sunday, 1:00pm - 6:00pm</p>",
         "map_address": "2727 SW Freeway, Houston, TX 77098",
         "api_key": "AIzaSyDDeLbsNn5h-ZTBwA1yspsXYY6c56FLCR0",
         "show_button": true,

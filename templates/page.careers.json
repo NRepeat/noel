@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "52b283a5-d7cc-477f-bf78-e27f48d34184": {
@@ -5,10 +14,10 @@
       "settings": {
         "subtitle": "",
         "title": "Interested in a Career in the High-End Furniture Industry?",
-        "text": "<p>You’ve come to the right place! We are currently interviewing candidates for the following positions: <\/p>",
+        "text": "<p>You’ve come to the right place! We are currently interviewing candidates for the following positions: </p>",
         "button_label": "",
         "button_link": "",
-        "image": "shopify:\/\/shop_images\/Aldo1_PM_Sectional_RS_Media_Kit.jpg",
+        "image": "shopify://shop_images/Aldo1_PM_Sectional_RS_Media_Kit.jpg",
         "layout": "left",
         "height": 450,
         "framed": true,
@@ -29,7 +38,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<h4>Social Media Specialist<\/h4><p>Call for job description.<\/p>"
+            "text": "<h4>Social Media Specialist</h4><p>Call for job description.</p>"
           }
         }
       },
@@ -49,7 +58,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<h4><strong>Designers\/Design Assistants<\/strong><\/h4><p>We are currently seeking goal-oriented designers\/sales professionals with prior sales experience.<\/p><p>The ideal candidate for this position loves to help clients with their furniture, art, rug and accessory selections. He or she is fashion forward with a type A personality, exudes enthusiasm and is self-motivated. A professional appearance is required as daily interface with customers is to be expected. Top-quality customer service is part of the culture at Noël Home, so we value exceptional presentation, communication and customer service skills.<\/p><p>The applicant must be able to work 40 hours per week (5 days per week, including some weekends), and scheduling flexibility is a must.<\/p>"
+            "text": "<h4><strong>Designers/Design Assistants</strong></h4><p>We are currently seeking goal-oriented designers/sales professionals with prior sales experience.</p><p>The ideal candidate for this position loves to help clients with their furniture, art, rug and accessory selections. He or she is fashion forward with a type A personality, exudes enthusiasm and is self-motivated. A professional appearance is required as daily interface with customers is to be expected. Top-quality customer service is part of the culture at Noël Home, so we value exceptional presentation, communication and customer service skills.</p><p>The applicant must be able to work 40 hours per week (5 days per week, including some weekends), and scheduling flexibility is a must.</p>"
           }
         }
       },
@@ -69,7 +78,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": true,
-            "text": "<h4><strong>Ready to Apply?<\/strong><\/h4><p>If a career in the high-end furniture industry appeals to you and any of these positions sound like the perfect fit, we’d love to see your resume! Please contact us at <a href=\"tel:17138745200\" title=\"tel:17138745200\">713-874-5200<\/a> or email <a href=\"mailto:info@noelhome.com\">info@noelhome.com<\/a> for more information.<\/p>"
+            "text": "<h4><strong>Ready to Apply?</strong></h4><p>If a career in the high-end furniture industry appeals to you and any of these positions sound like the perfect fit, we’d love to see your resume! Please contact us at <a href=\"tel:17138745200\" title=\"tel:17138745200\">713-874-5200</a> or email <a href=\"mailto:info@noelhome.com\">info@noelhome.com</a> for more information.</p>"
           }
         }
       },

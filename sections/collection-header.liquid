@@ -14,14 +14,24 @@
           <parallax-image class="parallax-container">
             <div class="parallax-image" data-movement="15%" data-parallax-image data-angle="{{ section.settings.parallax_direction }}">
         {%- endif -%}
-
-          {%- render 'image-element',
-              img: collection.image,
-              img_width: 2400,
-              classes: 'collection-hero__image image-fit',
-              preload: true,
-              loading: 'eager',
-          -%}
+          
+          {% if collection.metafields.custom.collection_header_image %}
+            {%- render 'image-element',
+                img: collection.metafields.custom.collection_header_image,
+                img_width: 2400,
+                classes: 'collection-hero__image image-fit',
+                preload: true,
+                loading: 'eager'
+            -%}
+          {% elsif collection.image %}
+            {%- render 'image-element',
+                img: collection.image,
+                img_width: 2400,
+                classes: 'collection-hero__image image-fit',
+                preload: true,
+                loading: 'eager'
+            -%}
+          {% endif %}
 
         {%- if section.settings.parallax -%}
             </div>

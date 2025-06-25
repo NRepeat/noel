@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "e82d2d57-c29c-4ed4-97fc-b313f6c5e8e3": {
@@ -13,7 +22,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>We understand how important it is to make the right decisions when it comes to selecting furniture for your home. That is why we offer so many brands and hundreds of styles and fabrics that allow you to combine elements of color, style, comfort, and price to get the furniture that is perfect for you and your family.<\/p><p>Noël Furniture is proud to offer the products of these top brands, and are committed to providing your with a risk free, hassle-free shopping experience to ensure that your find exactly what you're looking for.<\/p>"
+            "text": "<p>We understand how important it is to make the right decisions when it comes to selecting furniture for your home. That is why we offer so many brands and hundreds of styles and fabrics that allow you to combine elements of color, style, comfort, and price to get the furniture that is perfect for you and your family.</p><p>Noël Furniture is proud to offer the products of these top brands, and are committed to providing your with a risk free, hassle-free shopping experience to ensure that your find exactly what you're looking for.</p>"
           }
         }
       },

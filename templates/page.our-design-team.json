@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -31,120 +40,120 @@
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Carmen.png",
-            "image_color": "shopify:\/\/shop_images\/carmen-color.jpg",
+            "image": "shopify://shop_images/Carmen.png",
+            "image_color": "shopify://shop_images/carmen-color.jpg",
             "image_mask": "portrait",
             "image_position": "top",
             "title": "Carmen Barone",
             "title_position": "on",
             "text": "",
             "button_label": "",
-            "button_link": "shopify:\/\/metaobjects\/designer\/carmen-barone"
+            "button_link": "shopify://metaobjects/designer/carmen-barone"
           }
         },
         "template--15082220486716__dd08e364-ec8e-4d2d-960e-a9aa110e9e70-1674067794d88f780f-2": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Lawrence.png",
-            "image_color": "shopify:\/\/shop_images\/lawrence-color.webp",
+            "image": "shopify://shop_images/Lawrence.png",
+            "image_color": "shopify://shop_images/lawrence-color.webp",
             "image_mask": "portrait",
             "image_position": "top",
             "title": "Lawrence Hawkins",
             "title_position": "on",
             "text": "",
             "button_label": "",
-            "button_link": "shopify:\/\/metaobjects\/designer\/lawrence-hawkins"
+            "button_link": "shopify://metaobjects/designer/lawrence-hawkins"
           }
         },
         "0d7b1731-ebf3-492c-b21c-abcfff4c1589": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Alma.png",
-            "image_color": "shopify:\/\/shop_images\/alma-color.webp",
+            "image": "shopify://shop_images/Alma.png",
+            "image_color": "shopify://shop_images/alma-color.webp",
             "image_mask": "portrait",
             "image_position": "center",
             "title": "Alma Campbell",
             "title_position": "on",
             "text": "",
             "button_label": "",
-            "button_link": "shopify:\/\/metaobjects\/designer\/alma-campbell"
+            "button_link": "shopify://metaobjects/designer/alma-campbell"
           }
         },
         "4c367bf0-dbb0-48d4-bd97-4aea0811eceb": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Fatima.png",
-            "image_color": "shopify:\/\/shop_images\/fatima-color.jpg",
+            "image": "shopify://shop_images/Fatima.png",
+            "image_color": "shopify://shop_images/fatima-color.jpg",
             "image_mask": "portrait",
             "image_position": "top",
             "title": "Fatima Munir",
             "title_position": "on",
             "text": "",
             "button_label": "",
-            "button_link": "shopify:\/\/metaobjects\/designer\/fatima-munir"
+            "button_link": "shopify://metaobjects/designer/fatima-munir"
           }
         },
         "3824faac-c95c-4993-92be-35ce62e92a17": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Diann.png",
-            "image_color": "shopify:\/\/shop_images\/diann-color.jpg",
+            "image": "shopify://shop_images/Diann.png",
+            "image_color": "shopify://shop_images/diann-color.jpg",
             "image_mask": "portrait",
             "image_position": "top",
             "title": "Diann Maxey",
             "title_position": "on",
             "text": "",
             "button_label": "",
-            "button_link": "shopify:\/\/metaobjects\/designer\/diann-maxey"
+            "button_link": "shopify://metaobjects/designer/diann-maxey"
           }
         },
         "0a622642-54d8-4d48-8675-2af2856e8752": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/RC.png",
-            "image_color": "shopify:\/\/shop_images\/rc-color.jpg",
+            "image": "shopify://shop_images/RC.png",
+            "image_color": "shopify://shop_images/rc-color.jpg",
             "image_mask": "portrait",
             "image_position": "center",
             "title": "RC Noel",
             "title_position": "on",
             "text": "",
             "button_label": "",
-            "button_link": "shopify:\/\/metaobjects\/designer\/rc-noel"
+            "button_link": "shopify://metaobjects/designer/rc-noel"
           }
         },
         "de107b79-1899-48d1-b918-61c991f9a330": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Lee.png",
-            "image_color": "shopify:\/\/shop_images\/lee-color.jpg",
+            "image": "shopify://shop_images/Lee.png",
+            "image_color": "shopify://shop_images/lee-color.jpg",
             "image_mask": "portrait",
             "image_position": "top",
             "title": "Lee Danforth",
             "title_position": "on",
             "text": "",
             "button_label": "",
-            "button_link": "shopify:\/\/metaobjects\/designer\/lee-danforth"
+            "button_link": "shopify://metaobjects/designer/lee-danforth"
           }
         },
         "d15f5bff-aeb9-4a5c-848e-11bfd5e2ce01": {
           "type": "text_block",
           "settings": {
             "enable_image": true,
-            "image": "shopify:\/\/shop_images\/Westin.png",
-            "image_color": "shopify:\/\/shop_images\/westin-color.webp",
+            "image": "shopify://shop_images/Westin.png",
+            "image_color": "shopify://shop_images/westin-color.webp",
             "image_mask": "portrait",
             "image_position": "top",
             "title": "Westin Noel",
             "title_position": "on",
             "text": "",
             "button_label": "",
-            "button_link": "shopify:\/\/metaobjects\/designer\/westin-noel"
+            "button_link": "shopify://metaobjects/designer/westin-noel"
           }
         }
       },

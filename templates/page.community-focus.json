@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -11,7 +20,7 @@
         "template--15080822472764__d26b15aa-a116-4ed8-ac20-1659dfba859f-1673986084a5a88458-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/logo-alt.jpg",
+            "image": "shopify://shop_images/logo-alt.jpg",
             "link": "",
             "width": "100%",
             "alignment": "center"
@@ -34,31 +43,31 @@
         "item_fPyAwd": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MD_ANDERSON_CANCER_CENTER_e81d62cc-17ae-415e-bce2-e87289f6cb54.png"
+            "image": "shopify://shop_images/MD_ANDERSON_CANCER_CENTER_e81d62cc-17ae-415e-bce2-e87289f6cb54.png"
           }
         },
         "item_9wgcw8": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/American-Cancer-Society-logo.png"
+            "image": "shopify://shop_images/American-Cancer-Society-logo.png"
           }
         },
         "item_kzAGQX": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/gcrbc.png"
+            "image": "shopify://shop_images/gcrbc.png"
           }
         },
         "item_QcGFqW": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ahsa-web-logo_51b5a812-49df-43b3-9851-dc021cd45c47.png"
+            "image": "shopify://shop_images/ahsa-web-logo_51b5a812-49df-43b3-9851-dc021cd45c47.png"
           }
         },
         "item_KVx6fj": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Peach_logo1.png"
+            "image": "shopify://shop_images/Peach_logo1.png"
           }
         }
       },
@@ -84,7 +93,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Noël Furniture is actively involved in the Houston community. This includes ongoing support of local charities and causes, as well as providing employment and adding to the success of our region.<\/p>"
+            "text": "<p>Noël Furniture is actively involved in the Houston community. This includes ongoing support of local charities and causes, as well as providing employment and adding to the success of our region.</p>"
           }
         }
       },
@@ -105,7 +114,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>One very special cause we support is the American Cancer Society (ACS) in their battle against cancer. Noël Furniture participates annually in their Holiday Card program. In addition, our team of design experts has helped them \"dress\" their events in prior years with vignettes of home furnishings.<\/p><p>Related to our ACS support, we also have had a long-term relationship with the American Heart Association participating in the annual <em>Shop With Heart <\/em>charitable event. As well as we do with Gulf Coast Regional Blood Center where we host quarterly blood drives.<\/p><p>Most recently Noël sponsors the Rooftop Yoga – Under the Stars Event for Peach Outreach, a corporation committed to raising awareness and funding, to support the research and education of endometrial cancer and other cancers. 2018 marks our 6th year hosting this amazing event. <\/p><p>Over the years, we have also supported St. Jude's, Toys For Tots, SIRES, and many other worthy organizations.<\/p><p>For community organizations, Noël Management frequently hosts in-store cocktail events to serve as donor appreciation events and\/or networking. If your nonprofit or community minded organization is interested in such an event, please contact us at info@noelhome.com.<\/p>"
+            "text": "<p>One very special cause we support is the American Cancer Society (ACS) in their battle against cancer. Noël Furniture participates annually in their Holiday Card program. In addition, our team of design experts has helped them \"dress\" their events in prior years with vignettes of home furnishings.</p><p>Related to our ACS support, we also have had a long-term relationship with the American Heart Association participating in the annual <em>Shop With Heart </em>charitable event. As well as we do with Gulf Coast Regional Blood Center where we host quarterly blood drives.</p><p>Most recently Noël sponsors the Rooftop Yoga – Under the Stars Event for Peach Outreach, a corporation committed to raising awareness and funding, to support the research and education of endometrial cancer and other cancers. 2018 marks our 6th year hosting this amazing event. </p><p>Over the years, we have also supported St. Jude's, Toys For Tots, SIRES, and many other worthy organizations.</p><p>For community organizations, Noël Management frequently hosts in-store cocktail events to serve as donor appreciation events and/or networking. If your nonprofit or community minded organization is interested in such an event, please contact us at info@noelhome.com.</p>"
           }
         }
       },

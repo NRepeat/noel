@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "t:sections.footer-group.name",
@@ -12,7 +21,7 @@
             "enable_image": true,
             "image_mask": "none",
             "title": "Site-wide promotion",
-            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
             "button_label": "Optional button",
             "button_link": ""
           }
@@ -24,7 +33,7 @@
             "enable_image": true,
             "image_mask": "none",
             "title": "Site-wide promotion",
-            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
             "button_label": "Optional button",
             "button_link": ""
           }
@@ -36,7 +45,7 @@
             "enable_image": true,
             "image_mask": "none",
             "title": "Site-wide promotion",
-            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.<\/p>",
+            "text": "<p>Use this section to promote content throughout every page of your site. Add images for further impact.</p>",
             "button_label": "Optional button",
             "button_link": ""
           }
@@ -57,7 +66,7 @@
         "1494301487048": {
           "type": "logo_social",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/logo.png",
+            "logo": "shopify://shop_images/logo.png",
             "desktop_logo_height": 88,
             "container_width": 15
           }
@@ -75,7 +84,7 @@
           "settings": {
             "show_footer_title": true,
             "title": "Store Location",
-            "text": "<p><strong>Noël Furniture<\/strong><\/p><p>2727 SW Freeway<br\/>Houston, TX 77098<br\/><br\/><strong>Phone:<\/strong> 713-874-5200<\/p><p><a href=\"\/pages\/contact\" title=\"Contact\"><strong>Get Directions<\/strong><\/a><\/p>",
+            "text": "<p><strong>Noël Furniture</strong></p><p>2727 SW Freeway<br/>Houston, TX 77098<br/><br/><strong>Phone:</strong> 713-874-5200</p><p><a href=\"/pages/contact\" title=\"Contact\"><strong>Get Directions</strong></a></p>",
             "link-text": "",
             "link-url": "",
             "container_width": 29
@@ -92,7 +101,7 @@
         "show_currency_selector": true,
         "show_currency_flags": true,
         "additional_menu": "additional-footer-menu",
-        "about_text": "Noël Furniture features a large selection of quality living room, bedroom, dining room, home office, and entertainment furniture as well as mattresses, home decor and accessories. Noël Furniture has a store location in Houston, TX. Noël Furniture serves the surrounding areas of Houston, TX, Galveston, TX, The Woodlands, TX, Katy, TX, Austin, TX , San Antonio, TX, Dallas, TX, Fort Worth, TX, Harlingen, TX, McAllen, TX, Belton \/ Temple \/ Killeen, TX, Plano, TX, Beaumont, TX , Midland, TX, Corpus Christi, TX, Laredo, TX, Lake Charles, LA, Shreveport, LA, Baton Rouge, LA, New Orleans, LA. If you're looking for the perfect furniture to suit your needs as well as your lifestyle, stop by Noël Furniture in Houston, TX today!",
+        "about_text": "Noël Furniture features a large selection of quality living room, bedroom, dining room, home office, and entertainment furniture as well as mattresses, home decor and accessories. Noël Furniture has a store location in Houston, TX. Noël Furniture serves the surrounding areas of Houston, TX, Galveston, TX, The Woodlands, TX, Katy, TX, Austin, TX , San Antonio, TX, Dallas, TX, Fort Worth, TX, Harlingen, TX, McAllen, TX, Belton / Temple / Killeen, TX, Plano, TX, Beaumont, TX , Midland, TX, Corpus Christi, TX, Laredo, TX, Lake Charles, LA, Shreveport, LA, Baton Rouge, LA, New Orleans, LA. If you're looking for the perfect furniture to suit your needs as well as your lifestyle, stop by Noël Furniture in Houston, TX today!",
         "show_payment_icons": false,
         "show_copyright": true,
         "copyright_text": ""

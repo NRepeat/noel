@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -22,7 +31,7 @@
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/noel-careers-header.png",
+            "image": "shopify://shop_images/noel-careers-header.png",
             "parallax_direction": "top",
             "overlay_opacity": 0
           }
@@ -56,7 +65,7 @@
           "disabled": true,
           "settings": {
             "enlarge_text": false,
-            "text": "<p>You’ve come to the right place! We are currently interviewing candidates for the following positions:<\/p>"
+            "text": "<p>You’ve come to the right place! We are currently interviewing candidates for the following positions:</p>"
           }
         }
       },
@@ -78,7 +87,7 @@
           "disabled": true,
           "settings": {
             "enlarge_text": false,
-            "text": "<p><strong>Social Media Specialist<\/strong><\/p><p>Call for job description.<\/p>"
+            "text": "<p><strong>Social Media Specialist</strong></p><p>Call for job description.</p>"
           }
         },
         "5bad1d5a-1629-4251-b91e-f734e0f791bf": {
@@ -86,7 +95,7 @@
           "disabled": true,
           "settings": {
             "enlarge_text": false,
-            "text": "<p><strong>Designers\/Design Assistants<\/strong><\/p><p>We are currently seeking goal-oriented designers\/sales professionals with prior sales experience.<\/p><p>The ideal candidate for this position loves to help clients with their furniture, art, rug and accessory selections. He or she is fashion forward with a type A personality, exudes enthusiasm and is self-motivated. A professional appearance is required as daily interface with customers is to be expected. Top-quality customer service is part of the culture at Noël Home, so we value exceptional presentation, communication and customer service skills.<\/p><p>The applicant must be able to work 40 hours per week (5 days per week, including some weekends), and scheduling flexibility is a must.<\/p>"
+            "text": "<p><strong>Designers/Design Assistants</strong></p><p>We are currently seeking goal-oriented designers/sales professionals with prior sales experience.</p><p>The ideal candidate for this position loves to help clients with their furniture, art, rug and accessory selections. He or she is fashion forward with a type A personality, exudes enthusiasm and is self-motivated. A professional appearance is required as daily interface with customers is to be expected. Top-quality customer service is part of the culture at Noël Home, so we value exceptional presentation, communication and customer service skills.</p><p>The applicant must be able to work 40 hours per week (5 days per week, including some weekends), and scheduling flexibility is a must.</p>"
           }
         },
         "91651fc3-0eed-4f55-8c03-2a4b0f13763d": {
@@ -94,7 +103,7 @@
           "disabled": true,
           "settings": {
             "enlarge_text": false,
-            "text": "<p><strong>Ready to Apply?<\/strong><\/p><p>If a career in the high-end furniture industry appeals to you and any of these positions sound like the perfect fit, we’d love to see your resume! Please contact us at <a href=\"tel:17138745200\" title=\"tel:17138745200\">713-874-5200<\/a> or email <a href=\"mailto:info@noelhome.com\">info@noelhome.com<\/a> for more information.<\/p>"
+            "text": "<p><strong>Ready to Apply?</strong></p><p>If a career in the high-end furniture industry appeals to you and any of these positions sound like the perfect fit, we’d love to see your resume! Please contact us at <a href=\"tel:17138745200\" title=\"tel:17138745200\">713-874-5200</a> or email <a href=\"mailto:info@noelhome.com\">info@noelhome.com</a> for more information.</p>"
           }
         }
       },
@@ -134,7 +143,7 @@
       "type": "contact-form",
       "settings": {
         "title": "Contact us",
-        "text": "<p>Inspiration, delivered. Enjoy news, sale events and exclusive offers from Noël Home.<\/p>",
+        "text": "<p>Inspiration, delivered. Enjoy news, sale events and exclusive offers from Noël Home.</p>",
         "show_phone": true,
         "narrow_column": true
       }

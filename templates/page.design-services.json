@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "91ec95da-a7b9-4ea1-974b-fa9dc457d49a": {
@@ -10,7 +19,7 @@
         "link": "",
         "color_accent": "rgba(0,0,0,0)",
         "text_align": "vertical-bottom horizontal-center",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/669cd1264e7a46f8a14ac9478716f4b8.mp4",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/669cd1264e7a46f8a14ac9478716f4b8.mp4",
         "overlay_opacity": 10,
         "section_height": "550px",
         "mobile_height": "auto"
@@ -25,13 +34,13 @@
       "type": "text-and-image",
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/MH845F01.jpg",
+        "image": "shopify://shop_images/MH845F01.jpg",
         "image_mask": "portrait",
-        "image2": "shopify:\/\/shop_images\/MH1118F01-detail.jpg",
+        "image2": "shopify://shop_images/MH1118F01-detail.jpg",
         "image2_mask": "portrait",
         "subtitle": "",
         "title": "",
-        "text": "<p>Noël Home’s talented team of expert designers is standing by to help you transform your space with traditional pieces or trendy new creations in whatever style suits your taste.<\/p><p>Please fill out the form to schedule a design consultation today! Simply tell us a little about your style and what you’re looking for. You can even request a specific time and date.<\/p><p>We’ll get back to you as soon as possible to confirm your appointment. <\/p>",
+        "text": "<p>Noël Home’s talented team of expert designers is standing by to help you transform your space with traditional pieces or trendy new creations in whatever style suits your taste.</p><p>Please fill out the form to schedule a design consultation today! Simply tell us a little about your style and what you’re looking for. You can even request a specific time and date.</p><p>We’ll get back to you as soon as possible to confirm your appointment. </p>",
         "button_label": "",
         "button_link": "",
         "button_style": "primary",
@@ -51,7 +60,7 @@
           "type": "text",
           "settings": {
             "enlarge_text": false,
-            "text": "<p>Noël Home’s talented team of expert designers is standing by to help you transform your space with traditional pieces or trendy new creations in whatever style suits your taste.<\/p><p>Please fill out the form to schedule a design consultation today! Simply tell us a little about your style and what you’re looking for. You can even request a specific time and date.<\/p><p>We’ll get back to you as soon as possible to confirm your appointment. <\/p>"
+            "text": "<p>Noël Home’s talented team of expert designers is standing by to help you transform your space with traditional pieces or trendy new creations in whatever style suits your taste.</p><p>Please fill out the form to schedule a design consultation today! Simply tell us a little about your style and what you’re looking for. You can even request a specific time and date.</p><p>We’ll get back to you as soon as possible to confirm your appointment. </p>"
           }
         }
       },
@@ -71,12 +80,12 @@
           "type": "text_block",
           "settings": {
             "enable_image": false,
-            "image": "shopify:\/\/shop_images\/MH1105F01-detail.jpg",
+            "image": "shopify://shop_images/MH1105F01-detail.jpg",
             "image_mask": "square",
             "image_position": "top",
             "title": "",
             "title_position": "below",
-            "text": "<p>Designing a brand new living space from scratch?<\/p>",
+            "text": "<p>Designing a brand new living space from scratch?</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -85,12 +94,12 @@
           "type": "text_block",
           "settings": {
             "enable_image": false,
-            "image": "shopify:\/\/shop_images\/SB149.jpg",
+            "image": "shopify://shop_images/SB149.jpg",
             "image_mask": "square",
             "image_position": "top",
             "title": "",
             "title_position": "below",
-            "text": "<p>Looking for creative ideas to bring new life to an old space?<\/p>",
+            "text": "<p>Looking for creative ideas to bring new life to an old space?</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -99,12 +108,12 @@
           "type": "text_block",
           "settings": {
             "enable_image": false,
-            "image": "shopify:\/\/shop_images\/SB074detail_05d94d90-bac2-4ae3-97c6-b72134cae2fb.jpg",
+            "image": "shopify://shop_images/SB074detail_05d94d90-bac2-4ae3-97c6-b72134cae2fb.jpg",
             "image_mask": "none",
             "image_position": "top",
             "title": "",
             "title_position": "below",
-            "text": "<p>Ready to completely redecorate a room in your home?<\/p>",
+            "text": "<p>Ready to completely redecorate a room in your home?</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -132,7 +141,7 @@
           "settings": {
             "icon": "package",
             "title": "",
-            "text": "<p>Designing a brand new living space from scratch?<\/p>"
+            "text": "<p>Designing a brand new living space from scratch?</p>"
           }
         },
         "template--15080833908796__702b9eeb-f901-42dd-b885-f79fae93b923-16738831973aab373b-2": {
@@ -140,7 +149,7 @@
           "settings": {
             "icon": "gears",
             "title": "",
-            "text": "<p>Looking for creative ideas to bring new life to an old space?<\/p>"
+            "text": "<p>Looking for creative ideas to bring new life to an old space?</p>"
           }
         },
         "template--15080833908796__702b9eeb-f901-42dd-b885-f79fae93b923-16738831973aab373b-0": {
@@ -148,7 +157,7 @@
           "settings": {
             "icon": "chat",
             "title": "",
-            "text": "<p>Ready to completely redecorate a room in your home?<\/p>"
+            "text": "<p>Ready to completely redecorate a room in your home?</p>"
           }
         }
       },
@@ -184,8 +193,8 @@
         "title": "",
         "text": "",
         "button_label": "Schedule your consultation",
-        "button_link": "shopify:\/\/pages\/contact",
-        "image": "shopify:\/\/shop_images\/CG1_Room_Scene1_Shopify_Test1.jpg",
+        "button_link": "shopify://pages/contact",
+        "image": "shopify://shop_images/CG1_Room_Scene1_Shopify_Test1.jpg",
         "layout": "right",
         "height": 750,
         "framed": true,
@@ -204,13 +213,13 @@
             "title": "MEET OUR DESIGNERS",
             "title_size": 40,
             "subheading": "",
-            "link": "shopify:\/\/pages\/our-design-team",
+            "link": "shopify://pages/our-design-team",
             "link_text": "DESIGN TEAM",
             "link_2": "",
             "link_text_2": "",
             "color_accent": "rgba(0,0,0,0)",
             "text_align": "vertical-center horizontal-center",
-            "image": "shopify:\/\/shop_images\/hotel-lobby-chandlier.jpg",
+            "image": "shopify://shop_images/hotel-lobby-chandlier.jpg",
             "parallax_direction": "top",
             "overlay_opacity": 52
           }
@@ -236,56 +245,56 @@
         "item_rF7XFA": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/lee2.jpg",
+            "image": "shopify://shop_images/lee2.jpg",
             "text": "Lee Danforth"
           }
         },
         "item_bh6YdB": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/diann1.jpg",
+            "image": "shopify://shop_images/diann1.jpg",
             "text": "Diann Maxey"
           }
         },
         "item_FLRAk4": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Carmen_Barone.jpg",
+            "image": "shopify://shop_images/Carmen_Barone.jpg",
             "text": "Carmen Barone"
           }
         },
         "item_PhQJwc": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Fatima_Munir.jpg",
+            "image": "shopify://shop_images/Fatima_Munir.jpg",
             "text": "Fatima Munir"
           }
         },
         "item_wEiWtA": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Westin_Noel.png",
+            "image": "shopify://shop_images/Westin_Noel.png",
             "text": "Westin Noel"
           }
         },
         "item_da3Yg6": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Lawrence_Hawkins.png",
+            "image": "shopify://shop_images/Lawrence_Hawkins.png",
             "text": "Lawrence Hawkins"
           }
         },
         "item_Dhgzd9": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/alma1.jpg",
+            "image": "shopify://shop_images/alma1.jpg",
             "text": "Alma Campbell"
           }
         },
         "item_WaW3yj": {
           "type": "item",
           "settings": {
-            "image": "shopify:\/\/shop_images\/RC_Noel.jpg",
+            "image": "shopify://shop_images/RC_Noel.jpg",
             "text": "RC Noel"
           }
         }
