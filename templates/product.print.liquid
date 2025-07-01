@@ -5,12 +5,13 @@
     <title>Print Product</title>
     <style>
       body {
-        font-family: Arial, sans-serif;
+        font-family: 'Gotham Office Regular' !important;
         margin: 0;
         padding: 0;
         background: #fff;
         color: #222;
-        overflow: hidden;
+        overflow-x: hidden;
+        overflow-y: hidden;
       }
       .print-modal {
         max-width: 800px;
@@ -46,8 +47,8 @@
         margin-bottom: 24px;
       }
       .print-logo {
-        max-width: 120px;
-        max-height: 150px;
+        max-width: 200px;
+        max-height: 70px;
         margin-bottom: 24px;
       }
       .print-images {
@@ -138,6 +139,23 @@
         }
       }
       @media (max-width: 700px) {
+        .print-flex {
+          flex-direction: column;
+          gap: 16px;
+        }
+        .print-col--left {
+          max-width: 100%;
+          min-width: auto;
+          text-align: center;
+        }
+        .print-col--right {
+          padding-left: 0;
+          min-width: auto;
+        }
+        .print-images img {
+          max-width: 100%;
+          width: 280px;
+        }
         .print-meta-list--twocol {
           flex-direction: column;
           gap: 8px;
@@ -149,11 +167,11 @@
     <div class="print-modal print-flex">
       <div class="print-col print-col--left">
         <div class="print-header print-header--left">
-          {% assign logo = settings.logo | default: settings.checkout_logo_image %}
+          {% assign logo = 'Logo.png' %}
           {% if logo %}
             <img
               class="print-logo"
-              src="{{ logo | image_url: width: 400 }}"
+              src="{{ 'Logo.png' | asset_url }}"
               alt="{{ shop.name }} logo"
               width="200"
               height="90"
