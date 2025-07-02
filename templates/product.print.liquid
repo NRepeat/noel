@@ -40,7 +40,7 @@
       .print-col--right {
         width: 46%;
         float: left;
-        padding: 20px 0 0 4% !important;
+        padding: 20px 0 0 4%;
       }
       .print-header {
         text-align: center;
@@ -73,7 +73,7 @@
         object-fit: contain;
         /* border: 1px solid #eee;
         background: #fafafa; */
-        padding: 8px;
+        /* padding: 8px; */
       }
       .print-title {
         font-size: 18px;
@@ -132,6 +132,23 @@
         margin: 0;
         z-index: 10; */
       }
+      .left-atr {
+        width: 28%;
+        float: left;
+        font-size: 12px;
+        font-weight: bold;
+        padding-right: 2% !important;
+        text-align: right;
+      }
+      .right-atr {
+        width: 70%;
+        float: left;
+        font-size: 12px;
+      }
+      .print-flex-container {
+        display: flex;
+        width: 100%;
+      }
       @media print {
         #print-link,
         .print-cta,
@@ -158,14 +175,19 @@
         .print-images img {
           max-width: 290px;
           object-fit: contain;
-          padding: 8px;
+        }
+        .print-flex-container {
+          flex-direction: row !important;
         }
       }
 
-      @media (max-width: 700px) {
+      @media (max-width: 800px) {
         .print-flex {
           flex-direction: column;
           gap: 16px;
+        }
+        .print-flex-container {
+          flex-direction: column;
         }
         .print-col--left {
           max-width: 100%;
@@ -173,12 +195,15 @@
           text-align: center;
         }
         .print-col--right {
-          padding-left: 0;
+          padding: 0;
           min-width: auto;
+          width: 100%;
         }
         .print-images img {
           max-width: 100%;
-          /* width: 280px; */
+          width: 100%;
+          width: 400px;
+          height: 350px;
         }
         .print-meta-list--twocol {
           flex-direction: column;
@@ -204,8 +229,8 @@
             class="print-logo"
             src="{{ 'Logo.png' | asset_url }}"
             alt="{{ shop.name }} logo"
-            width="200"
-            height="90"
+            width="95"
+            height="85"
           >
         {% endif %}
         <div class="print-cta ">
@@ -220,7 +245,7 @@
           width: 100%;
         "
       >
-      <div style="display: flex; width: 100%;">
+      <div style="" class="print-flex-container">
         <div class="print-images">
           {% if product.media.size > 0 %}
             {% for media in product.media limit: 1 %}
@@ -251,94 +276,146 @@
             </div>
           {% endif %}
           <div class="print-meta-list">
-            <li
-              style="
-                list-style: none;
-                line-height: 15px;
-              "
-            >
-              <span
-                style="
-                  width: 28%;
-                  float: left;
-                  font-size: 12px;
-                  font-weight: bold;
-                  padding-right: 2% !important;
-                  text-align: right;
-                "
-              >
-                SKU:</span
-              >
-              <span
-                style="
-                  width: 70%;
-                  float: left;
-                  font-size: 12px;
-                  padding-top: 2px !important;
-                "
-              >
-                CLA-017-031
-              </span>
-            </li>
-            {% if product.selected_or_first_available_variant.sku and product.selected_or_first_available_variant.sku | strip != '' %}
-              <div><strong>SKU:</strong> {{ product.selected_or_first_available_variant.sku | strip }}</div>
-            {% endif %}
-            {% if product.type and product.type | strip != '' %}
-              <div><strong>Type:</strong> {{ product.type | strip }}</div>
-            {% endif %}
-            {% if product.collections.first.title and product.collections.first.title | strip != '' %}
-              <div><strong>Category:</strong> {{ product.collections.first.title | strip }}</div>
-            {% endif %}
-            {% if product.collections[0].title and product.collections[0].title | strip != '' %}
-              <div><strong>Collection:</strong> {{ product.collections[0].title | strip }}</div>
-            {% endif %}
-            {% assign width = product.metafields.custom.width | strip %}
-            {% assign depth = product.metafields.custom.depth | strip %}
-            {% assign height = product.metafields.custom.height | strip %}
-            {% assign weight = product.metafields.custom.weight | strip %}
-            {% assign volume = product.metafields.custom.volume | strip %}
-            {% assign diameter = product.metafields.custom.diameter | strip %}
-            {% assign carton_width = product.metafields.custom.carton_width | strip %}
-            {% assign carton_depth = product.metafields.custom.carton_depth | strip %}
-            {% assign carton_height = product.metafields.custom.carton_height | strip %}
-            {% assign finish = product.metafields.custom.finish | strip %}
-            {% assign material = product.metafields.custom.material | strip %}
-            {% if width != '' %}
-              <div><strong>Width:</strong> {{ width }}"</div>
-            {% endif %}
-            {% if depth != '' %}
-              <div><strong>Depth:</strong> {{ depth }}"</div>
-            {% endif %}
-            {% if height != '' %}
-              <div><strong>Height:</strong> {{ height }}"</div>
-            {% endif %}
-            {% if weight != '' %}
-              <div><strong>Weight:</strong> {{ weight }} lbs</div>
-            {% endif %}
-            {% if volume != '' %}
-              <div><strong>Volume:</strong> {{ volume }}</div>
-            {% endif %}
-            {% if diameter != '' %}
-              <div><strong>Diameter:</strong> {{ diameter }}"</div>
-            {% endif %}
-            {% if carton_width != '' %}
-              <div><strong>Carton Width:</strong> {{ carton_width }}</div>
-            {% endif %}
-            {% if carton_depth != '' %}
-              <div><strong>Carton Depth:</strong> {{ carton_depth }}</div>
-            {% endif %}
-            {% if carton_height != '' %}
-              <div><strong>Carton Height:</strong> {{ carton_height }}</div>
-            {% endif %}
-            {% if finish != '' %}
-              <div><strong>Finish:</strong> {{ finish }}</div>
-            {% endif %}
-            {% if material != '' %}
-              <div><strong>Material:</strong> {{ material }}</div>
-            {% endif %}
-            {% if product.vendor and product.vendor | strip != '' %}
-              <div><strong>Brand:</strong> {{ product.vendor | strip }}</div>
-            {% endif %}
+            <ul style="padding:0;margin:0;">
+              {% if product.selected_or_first_available_variant.sku and product.selected_or_first_available_variant.sku | strip != '' %}
+                <li style="list-style: none; line-height: 15px;">
+                  <span class="left-atr"> SKU: </span>
+                  <span class="right-atr">
+                    {{ product.selected_or_first_available_variant.sku | strip }}
+                  </span>
+                </li>
+              {% endif %}
+              {% if product.type and product.type | strip != '' %}
+                <li style="list-style: none; line-height: 15px;">
+                  <span class="left-atr"> Type: </span>
+                  <span class="right-atr">
+                    {{ product.type | strip }}
+                  </span>
+                </li>
+              {% endif %}
+              {% if product.collections.first.title and product.collections.first.title | strip != '' %}
+                <li style="list-style: none; line-height: 15px;">
+                  <span class="left-atr"> Category: </span>
+                  <span class="right-atr">
+                    {{ product.collections.first.title | strip }}
+                  </span>
+                </li>
+              {% endif %}
+              {% if product.collections[0].title and product.collections[0].title | strip != '' %}
+                <li style="list-style: none; line-height: 15px;">
+                  <span class="left-atr"> Collection: </span>
+                  <span class="right-atr">
+                    {{ product.collections[0].title | strip }}
+                  </span>
+                </li>
+              {% endif %}
+              {% assign width = product.metafields.custom.width | strip %}
+              {% assign depth = product.metafields.custom.depth | strip %}
+              {% assign height = product.metafields.custom.height | strip %}
+              {% assign weight = product.metafields.custom.weight | strip %}
+              {% assign volume = product.metafields.custom.volume | strip %}
+              {% assign diameter = product.metafields.custom.diameter | strip %}
+              {% assign carton_width = product.metafields.custom.carton_width | strip %}
+              {% assign carton_depth = product.metafields.custom.carton_depth | strip %}
+              {% assign carton_height = product.metafields.custom.carton_height | strip %}
+              {% assign finish = product.metafields.custom.finish | strip %}
+              {% assign material = product.metafields.custom.material | strip %}
+              {% if width != '' %}
+                <li style="list-style: none; line-height: 15px;">
+                  <span class="left-atr"> Width: </span>
+                  <span class="right-atr"> {{ width }}" </span>
+                </li>
+              {% endif %}
+              {% if depth != '' %}
+                <li style="list-style: none; line-height: 15px;">
+                  <span class="left-atr"> Depth: </span>
+                  <span class="right-atr"> {{ depth }}" </span>
+                </li>
+              {% endif %}
+              {% if height != '' %}
+                <li style="list-style: none; line-height: 15px;">
+                  <span class="left-atr"> Height: </span>
+                  <span class="right-atr"> {{ height }}" </span>
+                </li>
+              {% endif %}
+              {% if weight != '' %}
+                <li style="list-style: none; line-height: 15px;">
+                  <span class="left-atr"> Weight: </span>
+                  <span class="right-atr"> {{ weight }} lbs </span>
+                </li>
+              {% endif %}
+              {% if volume != '' %}
+                <li style="list-style: none; line-height: 15px;">
+                  <span class="left-atr"> Volume: </span>
+                  <span class="right-atr">
+                    {{ volume }}
+                  </span>
+                </li>
+              {% endif %}
+              {% if diameter != '' %}
+                <li style="list-style: none; line-height: 15px;">
+                  <span class="left-atr"> Diameter: </span>
+                  <span class="right-atr"> {{ diameter }}" </span>
+                </li>
+              {% endif %}
+              {% if carton_width != '' %}
+                <li style="list-style: none; line-height: 15px;">
+                  <span class="left-atr"> Carton Width: </span>
+                  <span class="right-atr">
+                    {{ carton_width }}
+                  </span>
+                </li>
+              {% endif %}
+              {% if carton_depth != '' %}
+                <li style="list-style: none; line-height: 15px;">
+                  <span class="left-atr"> Carton Depth: </span>
+                  <span class="right-atr">
+                    {{ carton_depth }}
+                  </span>
+                </li>
+              {% endif %}
+              {% if carton_height != '' %}
+                <li style="list-style: none; line-height: 15px;">
+                  <span class="left-atr"> Carton Height: </span>
+                  <span class="right-atr">
+                    {{ carton_height }}
+                  </span>
+                </li>
+              {% endif %}
+              {% if finish != '' %}
+                <li style="list-style: none; line-height: 15px;">
+                  <span class="left-atr"> Finish: </span>
+                  <span class="right-atr">
+                    {{ finish }}
+                  </span>
+                </li>
+              {% endif %}
+              {% if material != '' %}
+                <li style="list-style: none; line-height: 15px;">
+                  <span class="left-atr"> Material: </span>
+                  <span class="right-atr">
+                    {{ material }}
+                  </span>
+                </li>
+              {% endif %}
+              {% if product.vendor and product.vendor | strip != '' %}
+                <li style="list-style: none; line-height: 15px;">
+                  <span class="left-atr"> Brand: </span>
+                  <span class="right-atr">
+                    {{ product.vendor | strip }}
+                  </span>
+                </li>
+              {% endif %}
+              {% if product.metafields.custom.product and product.metafields.custom.product | strip != '' %}
+                <div><strong>Product:</strong> {{ product.metafields.custom.product | strip }}</div>
+              {% endif %}
+              {% if product.description and product.description | strip != '' %}
+                <span class="left-atr"> Description: </span>
+                <span class="right-atr">
+                  {{ product.description | strip }}
+                </span>
+              {% endif %}
+            </ul>
           </div>
           {% comment %}
             {% if shop.domain %}
