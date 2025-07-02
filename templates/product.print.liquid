@@ -14,16 +14,20 @@
         overflow-y: hidden;
       }
       .print-modal {
-        max-width: 800px;
+        width: 92%;
+        margin: 0 4%;
+        /* max-width: 800px;
         margin: 0 auto;
         padding: 24px 24px 0px 24px;
         background: #fff;
         box-shadow: 0 0 0 0 #fff;
+        position: relative; */
       }
       .print-flex {
         display: flex;
-        gap: 32px;
+        /* gap: 32px; */
         align-items: flex-start;
+        flex-direction: column;
       }
       .print-col {
         flex: 1 1 0;
@@ -34,13 +38,17 @@
         text-align: left;
       }
       .print-col--right {
-        flex: 2 1 0;
-        min-width: 320px;
-        padding-left: 16px;
+        width: 46%;
+        float: left;
+        padding: 20px 0 0 4% !important;
       }
       .print-header {
         text-align: center;
-        margin-bottom: 32px;
+        margin-bottom: 20px;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding-top: 20px;
       }
       .print-header--left {
         text-align: left;
@@ -49,34 +57,33 @@
       .print-logo {
         max-width: 200px;
         max-height: 70px;
-        margin-bottom: 24px;
+        /* margin-bottom: 24px; */
       }
       .print-images {
         display: flex;
         flex-wrap: wrap;
-        gap: 16px;
+        /* gap: 16px; */
         justify-content: center;
-        margin-bottom: 24px;
+        /* margin-bottom: 24px; */
         text-align: left;
       }
       .print-images img {
-        max-width: 260px;
-        max-height: 200px;
+        /* max-width: 260px;
+        max-height: 200px; */
         object-fit: contain;
-        border: 1px solid #eee;
-        background: #fafafa;
+        /* border: 1px solid #eee;
+        background: #fafafa; */
         padding: 8px;
       }
       .print-title {
-        font-size: 1.4em;
-        font-weight: bold;
-        margin-bottom: 8px;
-        margin-top: 0;
+        font-size: 18px;
+        text-transform: uppercase;
       }
       .print-subtitle {
-        font-size: 1.1em;
+        margin-top: 16px;
+        font-size: 20px;
         font-weight: bold;
-        margin-bottom: 4px;
+        padding-bottom: 10px;
       }
       .print-link {
         font-size: 1em;
@@ -87,8 +94,9 @@
       .print-link.printProductPrintPageLink.btn,
       .print-link a.printProductPrintPageLink.btn,
       #print-link.printProductPrintPageLink.btn {
-        color: #000 !important;
-        text-decoration: underline !important;
+        color: #555 !important;
+        text-decoration: none !important;
+        font-size: 16px;
       }
       .print-divider {
         border: none;
@@ -114,8 +122,15 @@
         line-height: 1.6;
       }
       .print-cta {
-        margin: 32px 0 0 0;
+        /* margin: 32px 0 0 0; */
         text-align: left;
+      }
+      .print-cta--top {
+        /* position: absolute;
+        top: 24px;
+        right: 32px;
+        margin: 0;
+        z-index: 10; */
       }
       @media print {
         #print-link,
@@ -129,7 +144,10 @@
           background: #fff !important;
         }
         .print-flex {
-          gap: 12px;
+          /* gap: 12px; */
+        }
+        .print-cta {
+          display: none !important;
         }
         .print-col--left {
           max-width: 220px;
@@ -137,7 +155,13 @@
         .print-col--right {
           padding-left: 8px;
         }
+        .print-images img {
+          max-width: 290px;
+          object-fit: contain;
+          padding: 8px;
+        }
       }
+
       @media (max-width: 700px) {
         .print-flex {
           flex-direction: column;
@@ -154,30 +178,49 @@
         }
         .print-images img {
           max-width: 100%;
-          width: 280px;
+          /* width: 280px; */
         }
         .print-meta-list--twocol {
           flex-direction: column;
           gap: 8px;
+        }
+        .print-cta--top {
+          position: absolute;
+          text-align: right;
+          z-index: 1000;
+          width: 100%;
+          top: -20px;
+          right: 20px;
         }
       }
     </style>
   </head>
   <body>
     <div class="print-modal print-flex">
-      <div class="print-col print-col--left">
-        <div class="print-header print-header--left">
-          {% assign logo = 'Logo.png' %}
-          {% if logo %}
-            <img
-              class="print-logo"
-              src="{{ 'Logo.png' | asset_url }}"
-              alt="{{ shop.name }} logo"
-              width="200"
-              height="90"
-            >
-          {% endif %}
+      <div class="print-header ">
+        {% assign logo = 'Logo.png' %}
+        {% if logo %}
+          <img
+            class="print-logo"
+            src="{{ 'Logo.png' | asset_url }}"
+            alt="{{ shop.name }} logo"
+            width="200"
+            height="90"
+          >
+        {% endif %}
+        <div class="print-cta ">
+          <a id="print-link" href="javascript:" onclick="return PrintWindow();" class="printProductPrintPageLink btn"
+            >PRINT PAGE</a
+          >
         </div>
+      </div>
+      <hr
+        style="
+          margin: 0;
+          width: 100%;
+        "
+      >
+      <div style="display: flex; width: 100%;">
         <div class="print-images">
           {% if product.media.size > 0 %}
             {% for media in product.media limit: 1 %}
@@ -185,8 +228,8 @@
                 <img
                   src="{{ media | image_url: width: 600, height: 600 }}"
                   alt="{{ product.title }} image {{ forloop.index }}"
-                  width="320"
-                  height="220"
+                  width="420"
+                  height="320"
                 >
               {% endif %}
             {% endfor %}
@@ -194,96 +237,311 @@
             <img
               src="{{ product.featured_image | image_url: width: 600, height: 600 }}"
               alt="{{ product.title }}"
-              width="320"
-              height="220"
+              width="420"
+              height="320"
             >
           {% endif %}
         </div>
-      </div>
-      <div class="print-col print-col--right">
-        <div class="print-title">{{ product.title }}</div>
-        <div class="print-subtitle">{{ shop.name }}</div>
-        {% if shop.domain %}
-          <div class="print-link">
-            <a target="_blank" href="https://{{ shop.domain }}">www.{{ shop.domain }}</a>
+        <div class="print-col print-col--right">
+          <div class="print-title">{{ product.title }}</div>
+          <div class="print-subtitle">Noel Furniture</div>
+          {% if shop.domain %}
+            <div class="print-link">
+              <a target="_blank" href="https://{{ shop.domain }}">www.{{ shop.domain }}</a>
+            </div>
+          {% endif %}
+          <div class="print-meta-list">
+            <li
+              style="
+                list-style: none;
+                line-height: 15px;
+              "
+            >
+              <span
+                style="
+                  width: 28%;
+                  float: left;
+                  font-size: 12px;
+                  font-weight: bold;
+                  padding-right: 2% !important;
+                  text-align: right;
+                "
+              >
+                SKU:</span
+              >
+              <span
+                style="
+                  width: 70%;
+                  float: left;
+                  font-size: 12px;
+                  padding-top: 2px !important;
+                "
+              >
+                CLA-017-031
+              </span>
+            </li>
+            {% if product.selected_or_first_available_variant.sku and product.selected_or_first_available_variant.sku | strip != '' %}
+              <div><strong>SKU:</strong> {{ product.selected_or_first_available_variant.sku | strip }}</div>
+            {% endif %}
+            {% if product.type and product.type | strip != '' %}
+              <div><strong>Type:</strong> {{ product.type | strip }}</div>
+            {% endif %}
+            {% if product.collections.first.title and product.collections.first.title | strip != '' %}
+              <div><strong>Category:</strong> {{ product.collections.first.title | strip }}</div>
+            {% endif %}
+            {% if product.collections[0].title and product.collections[0].title | strip != '' %}
+              <div><strong>Collection:</strong> {{ product.collections[0].title | strip }}</div>
+            {% endif %}
+            {% assign width = product.metafields.custom.width | strip %}
+            {% assign depth = product.metafields.custom.depth | strip %}
+            {% assign height = product.metafields.custom.height | strip %}
+            {% assign weight = product.metafields.custom.weight | strip %}
+            {% assign volume = product.metafields.custom.volume | strip %}
+            {% assign diameter = product.metafields.custom.diameter | strip %}
+            {% assign carton_width = product.metafields.custom.carton_width | strip %}
+            {% assign carton_depth = product.metafields.custom.carton_depth | strip %}
+            {% assign carton_height = product.metafields.custom.carton_height | strip %}
+            {% assign finish = product.metafields.custom.finish | strip %}
+            {% assign material = product.metafields.custom.material | strip %}
+            {% if width != '' %}
+              <div><strong>Width:</strong> {{ width }}"</div>
+            {% endif %}
+            {% if depth != '' %}
+              <div><strong>Depth:</strong> {{ depth }}"</div>
+            {% endif %}
+            {% if height != '' %}
+              <div><strong>Height:</strong> {{ height }}"</div>
+            {% endif %}
+            {% if weight != '' %}
+              <div><strong>Weight:</strong> {{ weight }} lbs</div>
+            {% endif %}
+            {% if volume != '' %}
+              <div><strong>Volume:</strong> {{ volume }}</div>
+            {% endif %}
+            {% if diameter != '' %}
+              <div><strong>Diameter:</strong> {{ diameter }}"</div>
+            {% endif %}
+            {% if carton_width != '' %}
+              <div><strong>Carton Width:</strong> {{ carton_width }}</div>
+            {% endif %}
+            {% if carton_depth != '' %}
+              <div><strong>Carton Depth:</strong> {{ carton_depth }}</div>
+            {% endif %}
+            {% if carton_height != '' %}
+              <div><strong>Carton Height:</strong> {{ carton_height }}</div>
+            {% endif %}
+            {% if finish != '' %}
+              <div><strong>Finish:</strong> {{ finish }}</div>
+            {% endif %}
+            {% if material != '' %}
+              <div><strong>Material:</strong> {{ material }}</div>
+            {% endif %}
+            {% if product.vendor and product.vendor | strip != '' %}
+              <div><strong>Brand:</strong> {{ product.vendor | strip }}</div>
+            {% endif %}
           </div>
-        {% endif %}
-        <hr class="print-divider">
-        <div class="print-meta-list">
-          {% if product.selected_or_first_available_variant.sku and product.selected_or_first_available_variant.sku | strip != '' %}
-            <div><strong>SKU:</strong> {{ product.selected_or_first_available_variant.sku | strip }}</div>
-          {% endif %}
-          {% if product.type and product.type | strip != '' %}
-            <div><strong>Type:</strong> {{ product.type | strip }}</div>
-          {% endif %}
-          {% if product.collections.first.title and product.collections.first.title | strip != '' %}
-            <div><strong>Category:</strong> {{ product.collections.first.title | strip }}</div>
-          {% endif %}
-          {% if product.collections[0].title and product.collections[0].title | strip != '' %}
-            <div><strong>Collection:</strong> {{ product.collections[0].title | strip }}</div>
-          {% endif %}
-          {% assign width = product.metafields.custom.width | strip %}
-          {% assign depth = product.metafields.custom.depth | strip %}
-          {% assign height = product.metafields.custom.height | strip %}
-          {% assign weight = product.metafields.custom.weight | strip %}
-          {% assign volume = product.metafields.custom.volume | strip %}
-          {% assign diameter = product.metafields.custom.diameter | strip %}
-          {% assign carton_width = product.metafields.custom.carton_width | strip %}
-          {% assign carton_depth = product.metafields.custom.carton_depth | strip %}
-          {% assign carton_height = product.metafields.custom.carton_height | strip %}
-          {% assign finish = product.metafields.custom.finish | strip %}
-          {% assign material = product.metafields.custom.material | strip %}
-          {% if width != '' %}
-            <div><strong>Width:</strong> {{ width }}"</div>
-          {% endif %}
-          {% if depth != '' %}
-            <div><strong>Depth:</strong> {{ depth }}"</div>
-          {% endif %}
-          {% if height != '' %}
-            <div><strong>Height:</strong> {{ height }}"</div>
-          {% endif %}
-          {% if weight != '' %}
-            <div><strong>Weight:</strong> {{ weight }} lbs</div>
-          {% endif %}
-          {% if volume != '' %}
-            <div><strong>Volume:</strong> {{ volume }}</div>
-          {% endif %}
-          {% if diameter != '' %}
-            <div><strong>Diameter:</strong> {{ diameter }}"</div>
-          {% endif %}
-          {% if carton_width != '' %}
-            <div><strong>Carton Width:</strong> {{ carton_width }}</div>
-          {% endif %}
-          {% if carton_depth != '' %}
-            <div><strong>Carton Depth:</strong> {{ carton_depth }}</div>
-          {% endif %}
-          {% if carton_height != '' %}
-            <div><strong>Carton Height:</strong> {{ carton_height }}</div>
-          {% endif %}
-          {% if finish != '' %}
-            <div><strong>Finish:</strong> {{ finish }}</div>
-          {% endif %}
-          {% if material != '' %}
-            <div><strong>Material:</strong> {{ material }}</div>
-          {% endif %}
-          {% if product.vendor and product.vendor | strip != '' %}
-            <div><strong>Brand:</strong> {{ product.vendor | strip }}</div>
-          {% endif %}
-        </div>
-        <div class="print-meta-list">
-          {% if product.metafields.custom.product and product.metafields.custom.product | strip != '' %}
-            <div><strong>Product:</strong> {{ product.metafields.custom.product | strip }}</div>
-          {% endif %}
-          {% if product.description and product.description | strip != '' %}
-            <div><strong>Description:</strong> {{ product.description | strip }}</div>
-          {% endif %}
-        </div>
-        <div class="print-cta">
-          <a id="print-link" href="javascript:" onclick="return PrintWindow();" class="printProductPrintPageLink btn"
-            >PRINT PAGE</a
-          >
+          {% comment %}
+            {% if shop.domain %}
+              <div class="print-link">
+                <a target="_blank" href="https://{{ shop.domain }}">www.{{ shop.domain }}</a>
+              </div>
+            {% endif %}
+            <hr class="print-divider">
+            <div class="print-meta-list">
+              {% if product.selected_or_first_available_variant.sku and product.selected_or_first_available_variant.sku | strip != '' %}
+                <div><strong>SKU:</strong> {{ product.selected_or_first_available_variant.sku | strip }}</div>
+              {% endif %}
+              {% if product.type and product.type | strip != '' %}
+                <div><strong>Type:</strong> {{ product.type | strip }}</div>
+              {% endif %}
+              {% if product.collections.first.title and product.collections.first.title | strip != '' %}
+                <div><strong>Category:</strong> {{ product.collections.first.title | strip }}</div>
+              {% endif %}
+              {% if product.collections[0].title and product.collections[0].title | strip != '' %}
+                <div><strong>Collection:</strong> {{ product.collections[0].title | strip }}</div>
+              {% endif %}
+              {% assign width = product.metafields.custom.width | strip %}
+              {% assign depth = product.metafields.custom.depth | strip %}
+              {% assign height = product.metafields.custom.height | strip %}
+              {% assign weight = product.metafields.custom.weight | strip %}
+              {% assign volume = product.metafields.custom.volume | strip %}
+              {% assign diameter = product.metafields.custom.diameter | strip %}
+              {% assign carton_width = product.metafields.custom.carton_width | strip %}
+              {% assign carton_depth = product.metafields.custom.carton_depth | strip %}
+              {% assign carton_height = product.metafields.custom.carton_height | strip %}
+              {% assign finish = product.metafields.custom.finish | strip %}
+              {% assign material = product.metafields.custom.material | strip %}
+              {% if width != '' %}
+                <div><strong>Width:</strong> {{ width }}"</div>
+              {% endif %}
+              {% if depth != '' %}
+                <div><strong>Depth:</strong> {{ depth }}"</div>
+              {% endif %}
+              {% if height != '' %}
+                <div><strong>Height:</strong> {{ height }}"</div>
+              {% endif %}
+              {% if weight != '' %}
+                <div><strong>Weight:</strong> {{ weight }} lbs</div>
+              {% endif %}
+              {% if volume != '' %}
+                <div><strong>Volume:</strong> {{ volume }}</div>
+              {% endif %}
+              {% if diameter != '' %}
+                <div><strong>Diameter:</strong> {{ diameter }}"</div>
+              {% endif %}
+              {% if carton_width != '' %}
+                <div><strong>Carton Width:</strong> {{ carton_width }}</div>
+              {% endif %}
+              {% if carton_depth != '' %}
+                <div><strong>Carton Depth:</strong> {{ carton_depth }}</div>
+              {% endif %}
+              {% if carton_height != '' %}
+                <div><strong>Carton Height:</strong> {{ carton_height }}</div>
+              {% endif %}
+              {% if finish != '' %}
+                <div><strong>Finish:</strong> {{ finish }}</div>
+              {% endif %}
+              {% if material != '' %}
+                <div><strong>Material:</strong> {{ material }}</div>
+              {% endif %}
+              {% if product.vendor and product.vendor | strip != '' %}
+                <div><strong>Brand:</strong> {{ product.vendor | strip }}</div>
+              {% endif %}
+            </div>
+            <div class="print-meta-list">
+              {% if product.metafields.custom.product and product.metafields.custom.product | strip != '' %}
+                <div><strong>Product:</strong> {{ product.metafields.custom.product | strip }}</div>
+              {% endif %}
+              {% if product.description and product.description | strip != '' %}
+                <div><strong>Description:</strong> {{ product.description | strip }}</div>
+              {% endif %}
+            </div>
+          {% endcomment %}
         </div>
       </div>
+      {% comment %}
+        <div class="print-col print-col--left">
+          <div class="print-header print-header--left">
+            {% assign logo = 'Logo.png' %}
+            {% if logo %}
+              <img
+                class="print-logo"
+                src="{{ 'Logo.png' | asset_url }}"
+                alt="{{ shop.name }} logo"
+                width="200"
+                height="90"
+              >
+            {% endif %}
+          </div>
+          <div class="print-images">
+            {% if product.media.size > 0 %}
+              {% for media in product.media limit: 1 %}
+                {% if media.media_type == 'image' %}
+                  <img
+                    src="{{ media | image_url: width: 600, height: 600 }}"
+                    alt="{{ product.title }} image {{ forloop.index }}"
+                    width="420"
+                    height="320"
+                  >
+                {% endif %}
+              {% endfor %}
+            {% else %}
+              <img
+                src="{{ product.featured_image | image_url: width: 600, height: 600 }}"
+                alt="{{ product.title }}"
+                width="320"
+                height="220"
+              >
+            {% endif %}
+          </div>
+        </div>
+      {% endcomment %}
+      {% comment %}
+        <div class="print-col print-col--right">
+          <div class="print-title">{{ product.title }}</div>
+          <div class="print-subtitle">{{ shop.name }}</div>
+          {% if shop.domain %}
+            <div class="print-link">
+              <a target="_blank" href="https://{{ shop.domain }}">www.{{ shop.domain }}</a>
+            </div>
+          {% endif %}
+          <hr class="print-divider">
+          <div class="print-meta-list">
+            {% if product.selected_or_first_available_variant.sku and product.selected_or_first_available_variant.sku | strip != '' %}
+              <div><strong>SKU:</strong> {{ product.selected_or_first_available_variant.sku | strip }}</div>
+            {% endif %}
+            {% if product.type and product.type | strip != '' %}
+              <div><strong>Type:</strong> {{ product.type | strip }}</div>
+            {% endif %}
+            {% if product.collections.first.title and product.collections.first.title | strip != '' %}
+              <div><strong>Category:</strong> {{ product.collections.first.title | strip }}</div>
+            {% endif %}
+            {% if product.collections[0].title and product.collections[0].title | strip != '' %}
+              <div><strong>Collection:</strong> {{ product.collections[0].title | strip }}</div>
+            {% endif %}
+            {% assign width = product.metafields.custom.width | strip %}
+            {% assign depth = product.metafields.custom.depth | strip %}
+            {% assign height = product.metafields.custom.height | strip %}
+            {% assign weight = product.metafields.custom.weight | strip %}
+            {% assign volume = product.metafields.custom.volume | strip %}
+            {% assign diameter = product.metafields.custom.diameter | strip %}
+            {% assign carton_width = product.metafields.custom.carton_width | strip %}
+            {% assign carton_depth = product.metafields.custom.carton_depth | strip %}
+            {% assign carton_height = product.metafields.custom.carton_height | strip %}
+            {% assign finish = product.metafields.custom.finish | strip %}
+            {% assign material = product.metafields.custom.material | strip %}
+            {% if width != '' %}
+              <div><strong>Width:</strong> {{ width }}"</div>
+            {% endif %}
+            {% if depth != '' %}
+              <div><strong>Depth:</strong> {{ depth }}"</div>
+            {% endif %}
+            {% if height != '' %}
+              <div><strong>Height:</strong> {{ height }}"</div>
+            {% endif %}
+            {% if weight != '' %}
+              <div><strong>Weight:</strong> {{ weight }} lbs</div>
+            {% endif %}
+            {% if volume != '' %}
+              <div><strong>Volume:</strong> {{ volume }}</div>
+            {% endif %}
+            {% if diameter != '' %}
+              <div><strong>Diameter:</strong> {{ diameter }}"</div>
+            {% endif %}
+            {% if carton_width != '' %}
+              <div><strong>Carton Width:</strong> {{ carton_width }}</div>
+            {% endif %}
+            {% if carton_depth != '' %}
+              <div><strong>Carton Depth:</strong> {{ carton_depth }}</div>
+            {% endif %}
+            {% if carton_height != '' %}
+              <div><strong>Carton Height:</strong> {{ carton_height }}</div>
+            {% endif %}
+            {% if finish != '' %}
+              <div><strong>Finish:</strong> {{ finish }}</div>
+            {% endif %}
+            {% if material != '' %}
+              <div><strong>Material:</strong> {{ material }}</div>
+            {% endif %}
+            {% if product.vendor and product.vendor | strip != '' %}
+              <div><strong>Brand:</strong> {{ product.vendor | strip }}</div>
+            {% endif %}
+          </div>
+          <div class="print-meta-list">
+            {% if product.metafields.custom.product and product.metafields.custom.product | strip != '' %}
+              <div><strong>Product:</strong> {{ product.metafields.custom.product | strip }}</div>
+            {% endif %}
+            {% if product.description and product.description | strip != '' %}
+              <div><strong>Description:</strong> {{ product.description | strip }}</div>
+            {% endif %}
+            <div class="print-cta print-cta--top">
+              <a id="print-link" href="javascript:" onclick="return PrintWindow();" class="printProductPrintPageLink btn"
+                >PRINT PAGE</a
+              >
+            </div>
+          </div>
+        </div>
+      {% endcomment %}
     </div>
     <script>
       function PrintWindow() {
