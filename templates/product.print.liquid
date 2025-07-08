@@ -11,7 +11,7 @@
         background: #fff;
         color: #222;
         overflow-x: hidden;
-        overflow-y: hidden;
+        overflow-y: auto;
       }
       .print-modal {
         width: 92%;
@@ -55,8 +55,8 @@
         margin-bottom: 24px;
       }
       .print-logo {
-        max-width: 200px;
-        max-height: 70px;
+        max-width: 74px;
+        max-height: 67px;
         /* margin-bottom: 24px; */
       }
       .print-images {
@@ -140,10 +140,14 @@
         padding-right: 2% !important;
         text-align: right;
       }
+      .text-space{
+        line-height: 24px;
+      }
       .right-atr {
         width: 70%;
         float: left;
         font-size: 12px;
+        padding-bottom: 8px;
       }
       .print-flex-container {
         display: flex;
@@ -160,19 +164,16 @@
           box-shadow: none !important;
           background: #fff !important;
         }
-        .print-flex {
-          /* gap: 12px; */
+        .print-col--right{
+          padding-top: 20px !important;
         }
-        .print-header{
-          margin-bottom: 20px;
-        }
-        .print-cta {
-          display: none !important;
+        .print-col print-col--right{
+            width: 100% !important;
         }
         .print-images img {
-          max-width: 290px;
+          max-width: 340px !important;
           object-fit: contain;
-        }
+        } 
         .print-flex-container {
           flex-direction: row !important;
         }
@@ -275,7 +276,7 @@
           <div class="print-meta-list">
             <ul style="padding:0;margin:0;">
               {% if product.selected_or_first_available_variant.sku and product.selected_or_first_available_variant.sku | strip != '' %}
-                <li style="list-style: none; line-height: 15px;">
+                <li style="list-style: none; line-height: 15px; margin-bottom: 14px;">
                   <span class="left-atr"> SKU: </span>
                   <span class="right-atr">
                     {{ product.selected_or_first_available_variant.sku | strip }}
@@ -283,7 +284,7 @@
                 </li>
               {% endif %}
               {% if product.type and product.type | strip != '' %}
-                <li style="list-style: none; line-height: 15px;">
+                <li style="list-style: none; line-height: 15px; margin-bottom: 14px;">
                   <span class="left-atr"> Type: </span>
                   <span class="right-atr">
                     {{ product.type | strip }}
@@ -291,7 +292,7 @@
                 </li>
               {% endif %}
               {% if product.collections.first.title and product.collections.first.title | strip != '' %}
-                <li style="list-style: none; line-height: 15px;">
+                <li style="list-style: none; line-height: 15px; margin-bottom: 14px;">
                   <span class="left-atr"> Category: </span>
                   <span class="right-atr">
                     {{ product.collections.first.title | strip }}
@@ -299,7 +300,7 @@
                 </li>
               {% endif %}
               {% if product.collections[0].title and product.collections[0].title | strip != '' %}
-                <li style="list-style: none; line-height: 15px;">
+                <li style="list-style: none; line-height: 15px; margin-bottom: 14px;">
                   <span class="left-atr"> Collection: </span>
                   <span class="right-atr">
                     {{ product.collections[0].title | strip }}
@@ -318,31 +319,31 @@
               {% assign finish = product.metafields.custom.finish | strip %}
               {% assign material = product.metafields.custom.material | strip %}
               {% if width != '' %}
-                <li style="list-style: none; line-height: 15px;">
+                <li style="list-style: none; line-height: 15px; margin-bottom: 14px;">
                   <span class="left-atr"> Width: </span>
                   <span class="right-atr"> {{ width }}" </span>
                 </li>
               {% endif %}
               {% if depth != '' %}
-                <li style="list-style: none; line-height: 15px;">
+                <li style="list-style: none; line-height: 15px; margin-bottom: 14px;">
                   <span class="left-atr"> Depth: </span>
                   <span class="right-atr"> {{ depth }}" </span>
                 </li>
               {% endif %}
               {% if height != '' %}
-                <li style="list-style: none; line-height: 15px;">
+                <li style="list-style: none; line-height: 15px; margin-bottom: 14px;">
                   <span class="left-atr"> Height: </span>
                   <span class="right-atr"> {{ height }}" </span>
                 </li>
               {% endif %}
               {% if weight != '' %}
-                <li style="list-style: none; line-height: 15px;">
+                <li style="list-style: none; line-height: 15px; margin-bottom: 14px;">
                   <span class="left-atr"> Weight: </span>
                   <span class="right-atr"> {{ weight }} lbs </span>
                 </li>
               {% endif %}
               {% if volume != '' %}
-                <li style="list-style: none; line-height: 15px;">
+                <li style="list-style: none; line-height: 15px; margin-bottom: 14px;">
                   <span class="left-atr"> Volume: </span>
                   <span class="right-atr">
                     {{ volume }}
@@ -350,13 +351,13 @@
                 </li>
               {% endif %}
               {% if diameter != '' %}
-                <li style="list-style: none; line-height: 15px;">
+                <li style="list-style: none; line-height: 15px; margin-bottom: 14px;">
                   <span class="left-atr"> Diameter: </span>
                   <span class="right-atr"> {{ diameter }}" </span>
                 </li>
               {% endif %}
               {% if carton_width != '' %}
-                <li style="list-style: none; line-height: 15px;">
+                <li style="list-style: none; line-height: 15px; margin-bottom: 14px;">
                   <span class="left-atr"> Carton Width: </span>
                   <span class="right-atr">
                     {{ carton_width }}
@@ -364,7 +365,7 @@
                 </li>
               {% endif %}
               {% if carton_depth != '' %}
-                <li style="list-style: none; line-height: 15px;">
+                <li style="list-style: none; line-height: 15px; margin-bottom: 14px;">
                   <span class="left-atr"> Carton Depth: </span>
                   <span class="right-atr">
                     {{ carton_depth }}
@@ -372,7 +373,7 @@
                 </li>
               {% endif %}
               {% if carton_height != '' %}
-                <li style="list-style: none; line-height: 15px;">
+                <li style="list-style: none; line-height: 15px; margin-bottom: 14px;">
                   <span class="left-atr"> Carton Height: </span>
                   <span class="right-atr">
                     {{ carton_height }}
@@ -380,7 +381,7 @@
                 </li>
               {% endif %}
               {% if finish != '' %}
-                <li style="list-style: none; line-height: 15px;">
+                <li style="list-style: none; line-height: 15px; margin-bottom: 14px;">
                   <span class="left-atr"> Finish: </span>
                   <span class="right-atr">
                     {{ finish }}
@@ -388,7 +389,7 @@
                 </li>
               {% endif %}
               {% if material != '' %}
-                <li style="list-style: none; line-height: 15px;">
+                <li style="list-style: none; line-height: 15px; margin-bottom: 14px;">
                   <span class="left-atr"> Material: </span>
                   <span class="right-atr">
                     {{ material }}
@@ -396,7 +397,7 @@
                 </li>
               {% endif %}
               {% if product.vendor and product.vendor | strip != '' %}
-                <li style="list-style: none; line-height: 15px;">
+                <li style="list-style: none; line-height: 15px; margin-bottom: 14px;">
                   <span class="left-atr"> Brand: </span>
                   <span class="right-atr">
                     {{ product.vendor | strip }}
@@ -407,8 +408,8 @@
                 <div><strong>Product:</strong> {{ product.metafields.custom.product | strip }}</div>
               {% endif %}
               {% if product.description and product.description | strip != '' %}
-                <span class="left-atr"> Description: </span>
-                <span class="right-atr">
+                <span class="left-atr text-space"> Description: </span>
+                <span class="right-atr text-space">
                   {{ product.description | strip }}
                 </span>
               {% endif %}
